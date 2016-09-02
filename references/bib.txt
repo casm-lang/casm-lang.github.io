@@ -1,5 +1,7 @@
 === References ===
 
+~~REFNOTES references:bib ~~
+
 <code>
 @inproceedings{paulweber2016abz,
   author    = {Philipp Paulweber and

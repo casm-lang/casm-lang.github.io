@@ -1,0 +1,67 @@
+=== References ===
+
+<code>
+@inproceedings{paulweber2016abz,
+  author    = {Philipp Paulweber and
+               Uwe Zdun},
+  title     = {A Model-Based Transformation Approach to Reuse and Retarget {CASM} Specifications},
+  booktitle = {Abstract State Machines, Alloy, B, TLA, VDM, and {Z} - 
+               5th International Conference, {ABZ} '16, 
+               Linz, Austria, May 23-27, 2016},
+  pages     = {250--255},
+  year      = {2016},
+  url       = {http://dx.doi.org/10.1007/978-3-319-33600-8_17},
+  doi       = {10.1007/978-3-319-33600-8_17},
+  timestamp = {Thu, 12 May 2016 18:16:35 +0200},
+}
+</code>
+
+
+<code>
+@inproceedings{lezuo2014lctes,
+  author    = {Roland Lezuo and
+               Philipp Paulweber and
+               Andreas Krall},
+  title     = {{CASM:} Optimized Compilation of Abstract State Machines},
+  booktitle = {{SIGPLAN/SIGBED} Conference on Languages, Compilers and 
+               Tools for Embedded Systems 2014, {LCTES} '14, 
+               Edinburgh, United Kingdom, June 12-13, 2014},
+  pages     = {13--22},
+  year      = {2014},
+  url       = {http://doi.acm.org/10.1145/2597809.2597813},
+  doi       = {10.1145/2597809.2597813},
+  timestamp = {Fri, 06 Jun 2014 09:29:57 +0200},
+}
+</code>
+
+<code>
+@inproceedings{lezuo2013rapido,
+  author    = {Roland Lezuo and
+               Andreas Krall},
+  title     = {Using the {CASM} Language for Simulator Synthesis and Model Verification},
+  booktitle = {Proceedings of the 2013 Workshop on Rapid Simulation and Performance
+               Evaluation: Methods and Tools, {RAPIDO} '13,
+               Berlin, Germany, 21 January, 2013},
+  pages     = {6:1--6:8},
+  year      = {2013},
+  url       = {http://doi.acm.org/10.1145/2432516.2432522},
+  doi       = {10.1145/2432516.2432522},
+  timestamp = {Tue, 02 Jun 2015 18:34:42 +0200},
+}
+</code>
+
+<code>
+@inproceedings{lezuo2013sew,
+  author    = {Roland Lezuo and
+               Gerg{\"{o}} Barany and
+               Andreas Krall},
+  title     = {{CASM:} Implementing an Abstract State Machine based Programming Language},
+  booktitle = {Software Engineering 2013 - Workshopband (inkl. Doktorandensymposium),
+               Fachtagung des GI-Fachbereichs Softwaretechnik, 
+               Aachen, Germany, February 26 - March 1, 2013},
+  pages     = {75--90},
+  year      = {2013},
+  url       = {http://subs.emis.de/LNI/Proceedings/Proceedings215/article6922.html},
+  timestamp = {Tue, 15 Mar 2016 11:26:11 +0100},
+}
+</code>

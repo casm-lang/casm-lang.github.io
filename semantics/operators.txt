@@ -1,0 +1,178 @@
+=== Operator Semantics ===
+
+<code>
+** NOT
+
+| NOT | undef | false | true  | sym  |
+|-----+-------+-------+-------+------|
+| -   | undef | true  | false | sym' |
+
+
+** OR
+
+| OR    | undef | false | true | sym  |
+|-------+-------+-------+------+------|
+| undef | undef | undef | true | sym' |
+| false | undef | false | true | sym' |
+| true  | true  | true  | true | true |
+| sym   | sym'  | sym'  | true | sym' |
+
+
+** AND
+
+a AND b <=> 
+NOT NOT ( a AND b ) <=>
+NOT ( NOT a OR NOT b ) <=>
+NOT ( a' OR b' ) <=>
+NOT ( c ) <=>
+c'
+
+|       |       | a' <=> | b' <=> | c <=>    | c' <=> |
+| a     | b     | NOT a  | NOT b  | a' OR b' | NOT c  |
+|-------+-------+--------+--------+----------+--------|
+| undef | undef | undef  | undef  | undef    | undef  |
+| undef | false | undef  | true   | true     | false  |
+| undef | true  | undef  | false  | undef    | undef  |
+| undef | sym1  | undef  | sym3   | sym4     | sym5   |
+| false | undef | true   | undef  | true     | false  |
+| false | false | true   | true   | true     | false  |
+| false | true  | true   | false  | true     | false  |
+| false | sym1  | true   | sym3   | true     | false  |
+| true  | undef | false  | undef  | undef    | undef  |
+| true  | false | false  | true   | true     | false  |
+| true  | true  | false  | false  | false    | true   |
+| true  | sym1  | false  | sym3   | sym4     | sym5   |
+| sym0  | undef | sym2   | undef  | sym4     | sym5   |
+| sym0  | false | sym2   | true   | true     | false  |
+| sym0  | true  | sym2   | false  | sym4     | sym5   |
+| sym0  | sym1  | sym2   | sym3   | sym4     | sym5   |
+
+
+| AND   | undef | false | true  | sym   |
+|-------+-------+-------+-------+-------|
+| undef | undef | false | undef | sym'  |
+| false | false | false | false | false |
+| true  | undef | false | true  | sym'  |
+| sym   | sym'  | false | sym'  | sym'  |
+
+
+** XOR
+
+a XOR b <=>
+( a OR b ) AND NOT ( a AND b ) <=>
+( c ) AND NOT ( d ) <=>
+c AND d' <=>
+e
+
+|       |       | c <=>  | d <=>   | d' <=> | e <=>    |
+| a     | b     | a OR b | a AND b | NOT d  | c AND d' |
+|-------+-------+--------+---------+--------+----------|
+| undef | undef | undef  | undef   | undef  | undef    |
+| undef | false | undef  | false   | true   | undef    |
+| undef | true  | true   | undef   | undef  | undef    |
+| undef | sym1  | sym2   | sym3    | sym4   | sym5     |
+| false | undef | undef  | false   | true   | undef    |
+| false | false | false  | false   | true   | false    |
+| false | true  | true   | false   | true   | true     |
+| false | sym1  | sym2   | false   | true   | sym'     |
+| true  | undef | true   | undef   | undef  | undef    |
+| true  | false | true   | false   | true   | true     |
+| true  | true  | true   | true    | false  | false    |
+| true  | sym1  | true   | sym3    | sym4   | sym5     |
+| sym0  | undef | sym2   | sym3    | sym4   | sym5     |
+| sym0  | false | sym2   | false   | true   | sym5     |
+| sym0  | true  | true   | sym3    | sym4   | sym5     |
+| sym0  | sym1  | sym2   | sym3    | sym4   | sym5     |
+
+| XOR   | undef | false | true  | sym  |
+|-------+-------+-------+-------+------|
+| undef | undef | undef | undef | sym' |
+| false | undef | false | true  | sym' |
+| true  | undef | true  | false | sym' |
+| sym   | sym'  | sym'  | sym'  | sym' |
+
+
+** EQU (=)
+
+| EQU      | undef | x : Type | sym  |
+|----------+-------+----------+------|
+| undef    | true  | false    | sym' |
+| y : Type | false | x == y   | sym' |
+| sym      | sym'  | sym'     | sym' |
+
+
+** NOT EQU (NEQ, !=)
+
+a NEQ b <=>
+NOT ( a EQU b ) <=>
+NOT ( c ) <=>
+'c
+
+| NEQ      | undef | x : Type | sym  |
+|----------+-------+----------+------|
+| undef    | false | true     | sym' |
+| y : Type | true  | x != y   | sym' |
+| sym      | sym'  | sym'     | sym' |
+
+
+** GRE (>) and LES (<)
+
+| GRE         | undef | x : Integer | sym   |
+|-------------+-------+-------------+-------|
+| undef       | undef | undef       | undef |
+| y : Integer | undef | x > y       | sym'  |
+| sym         | undef | sym'        | sym'  |
+
+| LES         | undef | x : Integer | sym   |
+|-------------+-------+-------------+-------|
+| undef       | undef | undef       | undef |
+| y : Integer | undef | x < y       | sym'  |
+| sym         | undef | sym'        | sym'  |
+
+generic for all integer arithmetic operations like
+where OP = { +, -, %, <, > }
+
+| OP          | undef | x : Integer | sym   |
+|-------------+-------+-------------+-------|
+| undef       | undef | undef       | undef |
+| y : Integer | undef | x OP y      | sym'  |
+| sym         | undef | sym'        | sym'  |
+
+
+
+** GEQ (>=) and LEQ (<=)
+
+a GEQ b <=>
+( a EQU b ) OR ( a GRE b ) <=>
+( c ) OR ( d ) <=>
+e
+
+|             |             | c <=>   | d <=>   | e <=>  |
+| a           | b           | a EQU b | a GRE b | c OR d |
+|-------------+-------------+---------+---------+--------|
+| undef       | undef       | true    | undef   | true   |
+| undef       | y : Integer | false   | undef   | undef  |
+| undef       | sym1        | sym2    | undef   | sym4   |
+| x : Integer | undef       | false   | undef   | undef  |
+| x : Integer | y : Integer | x == y  | x > y   | x >= y |
+| x : Integer | sym1        | sym2    | sym3    | sym4   |
+| sym0        | undef       | sym2    | undef   | sym4   |
+| sym0        | y : Integer | sym2    | sym3    | sym4   |
+| sym0        | sym1        | sym2    | sym3    | sym4   |
+
+| GEQ         | undef | x : Integer | sym  |
+|-------------+-------+-------------+------|
+| undef       | true  | undef       | sym' |
+| y : Integer | undef | x >= y      | sym' |
+| sym         | sym'  | sym'        | sym' |
+
+a LEQ b <=>
+( a EQU b ) OR ( a LES b ) <=>
+( c ) OR ( d ) <=>
+e
+
+| LEQ         | undef | x : Integer | sym  |
+|-------------+-------+-------------+------|
+| undef       | true  | undef       | sym' |
+| y : Integer | undef | x <= y      | sym' |
+| sym         | sym'  | sym'        | sym' |</code>

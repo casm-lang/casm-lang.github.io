@@ -1,3 +1,3 @@
 === This website is under construction ... ===
 
-{{ :readme.png?nolink&200 |}}
+{{ :readme:under_construction.png?nolink&200 |}}

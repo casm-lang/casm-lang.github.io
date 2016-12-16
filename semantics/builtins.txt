@@ -1,3 +1,4 @@
+<code>
 
 // asBoolean : Integer  -> Boolean, 0 -> false, other -> true
 // asBoolean : Floating -> Boolean, SHALL NOT BE POSSIBLE !!! ERROR
@@ -128,3 +129,5 @@
 //             LEN_BUILTIN,
 //             TAIL_BUILTIN,
 //             PEEK_BUILTIN,
+
+</code>

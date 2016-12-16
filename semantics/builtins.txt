@@ -1,5 +1,6 @@
 <code>
 
+// asBoolean: Boolean -> Boolean, shall print a warning
 // asBoolean : Integer  -> Boolean, 0 -> false, other -> true
 // asBoolean : Floating -> Boolean, SHALL NOT BE POSSIBLE !!! ERROR
 // asBoolean : Bit( n ) -> Boolean, SHALL NOT BE POSSIBLE where n != 1 !!! ERROR
@@ -8,7 +9,7 @@
 //                                , 'e' is a enumeration value of type 'e'
 
 
-
+// asInteger : Integer  -> Integer, shall print a warning
 // asInteger : Boolean  -> Integer, false -> 0, true -> 1, undef -> undef
 // asInteger : Floating -> Integer, cut of comma value to integer, undef ->
 // undef
@@ -20,7 +21,8 @@
 
 
 
-
+// asBit : Bit( n ) * Integer (const, n) -> Bit( n ),, shall print a warning
+// asBit : Bit( m ) * Integer (const, n) -> Bit( n ),, shall print a error if m > n
 // asBit : Integer  * Integer (const, n) -> Bit( n ), only possible if integer fits into bit-width,
 //                                                  , unsigned semantic only which means e.g.: 
 //                                                  , -1 is a 64-bit integer value and has to fit in at least Bit( 64 )
@@ -36,6 +38,7 @@
 // // asEnum : Bit( n ) -> e, iff Bit(n) value is in { indexes of e }
 // // // 'e' is a enumeration value of type 'e'
 
+// asString : String -> String, shall print a warning
 // asString : Integer  -> String, SHALL NOT BE POSSIBLE !!! ERROR  --> use 'dec'
 // asString : Boolean  -> String, false -> "false", true -> "true"
 // asString : Floating -> String, SHALL NOT BE POSSIBLE !!! ERROR  --> use 'dec'
@@ -43,12 +46,11 @@
 // asString : e        -> String, string represenation of enum value 'e'
 
 
-
+// asFloating : Floating -> Floating, shall print a warning
 // asFloating : Integer  -> Floating, int to float converstion!
-// asFloating : Boolean  -> Floating, false -> 0.0, true -> 1.0
+// asFloating : Boolean  -> Floating, asFloating(asInteger(b))
 // asFloating : Bit( n ) -> Floating, SHALL NOT BE POSSIBLE
-// asFloating : e        -> Floating, e -> index(e).0, e !in index(e) -> undef, undef -> undef
-//                                  , 'e' is a enumeration value of type 'e'
+// asFloating : e        -> Floating, asFloating(asInteger(e))
 
 
 
@@ -131,3 +133,4 @@
 //             PEEK_BUILTIN,
 
 </code>
+

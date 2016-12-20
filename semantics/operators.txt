@@ -175,7 +175,7 @@ e
 |-------------+-------+-------------+------|
 | undef       | true  | undef       | sym' |
 | y : Integer | undef | x <= y      | sym' |
-| sym         | sym'  | sym'        | sym' |</code>
+| sym         | sym'  | sym'        | sym' |
 
 ** DIV  a / b 
 
@@ -185,4 +185,4 @@ e
 | undef  | undef | undef  | undef | undef | undef |
 | int!=0 | undef | int    | int   | undef | sym'  |
 | int=0  | undef | int=0  | int=0 | undef | int=0 |
-| sym2   | undef | sym'   | sym2  | undef | sym'  |
+| sym2   | undef | sym'   | sym2  | undef | sym'  |</code>

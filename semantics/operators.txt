@@ -176,3 +176,13 @@ e
 | undef       | true  | undef       | sym' |
 | y : Integer | undef | x <= y      | sym' |
 | sym         | sym'  | sym'        | sym' |</code>
+
+** DIV  a / b 
+
+| DIV  b | undef | int!=0 | int=1 | int=0 | sym1  |
+| a      |       |        |       |       |       |
+|--------+-------+--------+-------+-------+-------|
+| undef  | undef | undef  | undef | undef | undef |
+| int!=0 | undef | int    | int   | undef | sym'  |
+| int=0  | undef | int=0  | int=0 | undef | int=0 |
+| sym2   | undef | sym'   | sym2  | undef | sym'  |

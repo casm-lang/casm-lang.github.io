@@ -177,6 +177,12 @@ e
 | y : Integer | undef | x <= y      | sym' |
 | sym         | sym'  | sym'        | sym' |
 
+** INV  a (aka. -a)
+
+| INV | undef | x : Integer | sym  |
+|-----+-------+-------------+------|
+| -   | undef | -x          | sym' |
+
 ** DIV  a / b 
 
 | DIV  b | undef | int!=0 | int=0 | sym   |

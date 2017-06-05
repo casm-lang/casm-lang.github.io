@@ -20,7 +20,7 @@ Syntax: ''Expression = 'IF', Expression, 'THEN', Expression, 'ELSE', Expression 
 Add let expressions in addition to let rules so that it is possible to use them in derived functions and expressions.
 
 ----
-=== Functions in rule scope ===
+=== Functions in rule scope (local variables) ===
 Function definition in rule scope instead of the global scope
 
 ----

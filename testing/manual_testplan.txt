@@ -1,0 +1,24 @@
+== Update - type mismatch ==
+When:
+<code>
+function f : Integer -> Integer
+f(1) := true
+</code>
+Then:
+  * Should underline ''f(1)'' and ''true''
+  * Should provide error code ''1202''
+  * Should give error message <code>type mismatch: updating expression was 'Boolean', but updated function expects 'Integer'</code>
+
+----
+
+== Update - unknown function ==
+Given:
+  * Function ''g'' isn't declared
+When:
+<code>
+g(1) := true
+</code>
+Then:
+  * Should underline ''g(1)''
+  * Should provide error code ''f000''
+  * Should give error message <code>unknown function symbol 'g' found</code>

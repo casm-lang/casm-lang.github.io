@@ -1,0 +1,13 @@
+
+<html>
+    
+<div id="container" style="width:100%; height:600px; border:none"></div>
+
+<script  src="/_nodejs/min/vs/loader.js"></script>
+<script> 
+require.config( { paths: { 'vs': '/_nodejs/min/vs' } } ); 
+console.log("casmd");
+</script>
+<script  src="/_nodejs/casm-lang.plugin.monaco.min.js"></script>
+
+</html>

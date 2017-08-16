@@ -1,6 +1,3 @@
-
-
-
-<nav type="pills">
+<nav type="tabs">
     * [[:readme|Home]]
 </nav>

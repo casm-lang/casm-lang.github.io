@@ -1,3 +1,4 @@
-<html><hr><center></html>
+<page-header></page-header>
+<TEXT align="center">
 Copyright © 2014-2017 CASM Organistion. All rights reserved.
-<html></center></html>
+</TEXT>

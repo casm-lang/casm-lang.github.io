@@ -1,3 +1,6 @@
-<nav type="pills" justified="true">
+
+
+
+<nav type="pills">
     * [[:readme|Home]]
 </nav>

@@ -1,0 +1,3 @@
+<nav type="pills">
+  * [[:#news|News]]
+</nav>

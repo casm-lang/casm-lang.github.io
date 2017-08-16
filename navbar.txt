@@ -1,1 +1,3 @@
-<btn>[[:#news|News]]</btn>
+<nav type="pills">
+  * [[:#news|News]]
+</nav>

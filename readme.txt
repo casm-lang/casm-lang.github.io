@@ -1,8 +1,4 @@
 
-<alert type="warning" icon="fa fa-info-circle" dismiss="true">
-**This website is under construction ...**
-</alert>
-
 <grid>
 <col lg="6" md="12">
 == News ==

@@ -9,9 +9,6 @@
 	    }
 	  }
 	);
-	window.casmd =
-	{ standalone: true
-	};
 	</script>
 	<script src="_nodejs/casm-lang.plugin.monaco.min.js"></script>
       </div>

@@ -1,14 +1,19 @@
 <html>
-<div id="container" style="width:100%; height:800px; border:none">
-  <script  src="/_nodejs/min/vs/loader.js"></script>
-  <script> 
-    require.config
-    ( { paths: 
-        { 'vs': '/_nodejs/min/vs' 
-        } 
-      } 
-    ); 
-  </script>
-  <script src="/_nodejs/casm-lang.plugin.monaco.min.js"></script>
-</div>
+    <div id="casm-lang-plugin-monaco">
+      <div id="casm-lang-plugin-monaco-editor" style="width: 100%; height: 480px; border: none;">
+	<script src="_nodejs/min/vs/loader.js"></script>
+	<script>
+	require.config
+	( { paths:
+	    { 'vs': '_nodejs/min/vs'
+	    }
+	  }
+	);
+	window.casmd =
+	{ standalone: true
+	};
+	</script>
+	<script src="_nodejs/casm-lang.plugin.monaco.min.js"></script>
+      </div>
+    </div>
 </html>

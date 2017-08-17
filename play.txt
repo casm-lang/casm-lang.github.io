@@ -1,5 +1,5 @@
 <html>
-<div id="container" style="width:100%; height:600px; border:none">
+<div id="container" style="width:100%; height:800px; border:none">
   <script  src="/_nodejs/min/vs/loader.js"></script>
   <script> 
     require.config

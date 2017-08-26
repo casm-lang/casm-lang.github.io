@@ -1,6 +1,4 @@
-~~META:
-title = CASM
-~~
+~~Title: Website ~~
 
 <grid>
 <col lg="6" md="12">

@@ -1,0 +1,20 @@
+<html>
+<div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
+<img class="img-circle" style="height: 80px;" src="/_media/member/epescosta.png">
+<br>
+<a href="http://www.enet.at/de" title="enet GmbH">
+<img class="" style="height: 40px;" src="/_media/member/ship/enet.png"></a>
+</div>
+</html>
+<grid>
+<col>[[https://github.com/emmanuel099|{{icon>github?lg|GitHub Page}}]]</col>
+<col>[[https://twitter.com/emmanuel_099|{{icon>twitter?lg|Twitter Page}}]]</col>
+<col>[[https://linkedin.com/in/emmanuel-pescosta-666961124|{{icon>linkedin?lg|LinkedIn Page}}]]</col>
+<col>[[http://www.enet.at/de|{{icon>building?lg|Employment Page}}]]</col>
+</grid>
+
+== Emmanuel Pescosta ==
+
+//TBD.//
+
+TBD ...

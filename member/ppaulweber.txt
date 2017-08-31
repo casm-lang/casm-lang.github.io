@@ -1,0 +1,21 @@
+<html>
+<div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
+<img class="img-circle" style="height: 80px;" src="/_media/member/ppaulweber.png">
+<br>
+<a href="https://cs.univie.ac.at" title="University of Vienna">
+<img class="" style="height: 40px;" src="/_media/member/ship/univie.png"></a>
+</div>
+</html>
+<grid>
+<col>[[https://github.com/ppaulweber|{{icon>github?lg|GitHub Page}}]]</col>
+<col>[[https://twitter.com/ppaulweber|{{icon>twitter?lg|Twitter Page}}]]</col>
+<col>[[https://linkedin.com/in/ppaulweber|{{icon>linkedin?lg|LinkedIn Page}}]]</col>
+<col>[[https://ppaulweber.com|{{icon>globe?lg|Personal Page}}]]</col>
+<col>[[https://cs.univie.ac.at/philipp.paulweber|{{icon>university?lg|Employment Page}}]]</col>
+</grid>
+
+== Philipp Paulweber ==
+
+//Founder of **casm-lang** and project leader of **casm**.//
+
+TBD ...

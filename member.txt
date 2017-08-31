@@ -1,0 +1,4 @@
+== Members ==
+<grid>
+<col xs="6" md="3">{{page>member:ppaulweber&noindent&firstsectiononly&nofooter}}</col>
+</grid>

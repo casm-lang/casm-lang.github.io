@@ -1,0 +1,17 @@
+<html>
+<div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
+<img class="img-circle" style="height: 80px;" src="/_media/member/akrall.png">
+<br>
+<a href="http://www.informatik.tuwien.ac.at/english" title="Vienna University of Technology">
+<img class="" style="height: 40px;" src="/_media/member/ship/tuwien.png"></a>
+</div>
+</html>
+<grid>
+<col>[[http://www.complang.tuwien.ac.at/andi|{{icon>university?lg|Employment Page}}]]</col>
+</grid>
+
+== Andreas Krall ==
+
+//TBD.//
+
+TBD ...

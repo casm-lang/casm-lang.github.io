@@ -1,0 +1,18 @@
+<html>
+<div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
+<img class="img-circle" style="height: 80px;" src="/_media/member/uzdun.png">
+<br>
+<a href="https://cs.univie.ac.at" title="University of Vienna">
+<img class="" style="height: 40px;" src="/_media/member/ship/univie.png"></a>
+</div>
+</html>
+<grid>
+<col>[[https://github.com/uzdun|{{icon>github?lg|GitHub Page}}]]</col>
+<col>[[https://cs.univie.ac.at/uwe.zdun|{{icon>university?lg|Employment Page}}]]</col>
+</grid>
+
+== Uwe Zdun ==
+
+//TBD.//
+
+TBD ...

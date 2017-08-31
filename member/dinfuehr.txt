@@ -1,0 +1,20 @@
+<html>
+<div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
+<img class="img-circle" style="height: 80px;" src="/_media/member/dinfuehr.png">
+<br>
+<a href="https://www.theobroma-systems.com" title="Theobroma Systems Design und Consulting GmbH">
+<img class="" style="height: 40px;" src="/_media/member/ship/theobroma_systems.png"></a>
+</div>
+</html>
+<grid>
+<col>[[https://github.com/dinfuehr|{{icon>github?lg|GitHub Page}}]]</col>
+<col>[[https://twitter.com/dinfuehr|{{icon>twitter?lg|Twitter Page}}]]</col>
+<col>[[https://dinfuehr.github.io|{{icon>globe?lg|Personal Page}}]]</col>
+<col>[[https://www.theobroma-systems.com|{{icon>building?lg|Employment Page}}]]</col>
+</grid>
+
+== Dominik Inführ ==
+
+//TBD.//
+
+TBD ...

@@ -1,0 +1,20 @@
+<html>
+<div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
+<img class="img-circle" style="height: 80px;" src="/_media/member/gbarany.png">
+<br>
+<a href="https://www.inria.fr/en/centre/paris" title="Inria Paris">
+<img class="" style="height: 40px;" src="/_media/member/ship/inria.png"></a>
+</div>
+</html>
+<grid>
+<col>[[https://github.com/gergo-|{{icon>github?lg|GitHub Page}}]]</col>
+<col>[[https://twitter.com/princess_gergo|{{icon>twitter?lg|Twitter Page}}]]</col>
+<col>[[http://www.complang.tuwien.ac.at/gergo|{{icon>globe?lg|Personal Page}}]]</col>
+<col>[[http://gallium.inria.fr|{{icon>university?lg|Employment Page}}]]</col>
+</grid>
+
+== Gergö Barany ==
+
+//TBD.//
+
+TBD ...

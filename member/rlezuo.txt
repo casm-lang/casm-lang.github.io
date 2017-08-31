@@ -1,0 +1,18 @@
+<html>
+<div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
+<img class="img-circle" style="height: 80px;" src="/_media/member/rlezuo.png">
+<br>
+<a href="http://m42-embedded.at" title="M42 embedded e.U.">
+<img class="" style="height: 40px;" src="/_media/member/ship/m42embedded.png"></a>
+</div>
+</html>
+<grid>
+<col>[[https://github.com/rlezuo|{{icon>github?lg|GitHub Page}}]]</col>
+<col>[[http://m42-embedded.at|{{icon>building?lg|Employment Page}}]]</col>
+</grid>
+
+== Roland Lezuo ==
+
+//TBD.//
+
+TBD ...

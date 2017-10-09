@@ -18,4 +18,14 @@
 
 //Founder of **casm-lang** and project leader of **casm**.//
 
-TBD ...
+Philipp Paulweber is a PhD student, teaching and research assistent at the University of Vienna,
+holding a Master of Science (MSc, in German Dipl-Ing.) degree in computer engineering from the Vienna University of
+Technology since 2014.
+He was formerly employed at the real-time communication and safety-critical
+software/hardware engineering company Time-Triggered Technology located in Vienna
+and was involved in automotive software system architecture design and development
+applying standards like the ISO 26262 and AUTOSAR.
+
+asdf [(asdf)]
+
+~~REFNOTES~~

@@ -6,6 +6,10 @@
 ~~REFNOTES references~~
 
 <code bibtex>
+@Comment{refnotes,
+  namespace = "ref"
+}
+
 @inproceedings{paulweber2016abz,
   author    = {Philipp Paulweber and
                Uwe Zdun},

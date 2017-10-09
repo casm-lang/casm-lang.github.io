@@ -1,12 +1,12 @@
 === References ===
 
 [(asdf)]
-[(paulweber2016abz)]
+[(:paulweber2016abz)]
 
 ~~REFNOTES references~~
 
 <code bibtex>
-@Comment{refnotes,
+@Comment{refnotes
 }
 
 @inproceedings{paulweber2016abz,

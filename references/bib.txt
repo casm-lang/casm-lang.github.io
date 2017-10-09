@@ -7,7 +7,6 @@
 
 <code bibtex>
 @Comment{refnotes,
-  namespace = "ref"
 }
 
 @inproceedings{paulweber2016abz,

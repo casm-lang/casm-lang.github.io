@@ -1,14 +1,9 @@
 === References ===
 
-[(asdf)]
-paulweber2016abz[(cite:paulweber2016abz)]
-
-~~REFNOTES cite ~~
+  * paulweber2016abz[(cite:paulweber2016abz)]
 
 <code bibtex>
-@Comment{refnotes,
-  namespace = "cite"
-}
+@Comment{refnotes,namespace = "cite"}
 
 @inproceedings{paulweber2016abz,
   author    = {Philipp Paulweber and

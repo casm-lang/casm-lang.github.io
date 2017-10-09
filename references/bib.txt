@@ -5,7 +5,7 @@
 
 ~~REFNOTES references~~
 
-<code>
+<code bibtex>
 @inproceedings{paulweber2016abz,
   author    = {Philipp Paulweber and
                Uwe Zdun},

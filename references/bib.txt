@@ -19,10 +19,7 @@
   doi       = {10.1007/978-3-319-33600-8_17},
   timestamp = {Thu, 12 May 2016 18:16:35 +0200},
 }
-</code>
 
-
-<code>
 @inproceedings{lezuo2014lctes,
   author    = {Roland Lezuo and
                Philipp Paulweber and
@@ -37,9 +34,7 @@
   doi       = {10.1145/2597809.2597813},
   timestamp = {Fri, 06 Jun 2014 09:29:57 +0200},
 }
-</code>
 
-<code>
 @inproceedings{lezuo2013rapido,
   author    = {Roland Lezuo and
                Andreas Krall},
@@ -53,9 +48,7 @@
   doi       = {10.1145/2432516.2432522},
   timestamp = {Tue, 02 Jun 2015 18:34:42 +0200},
 }
-</code>
 
-<code>
 @inproceedings{lezuo2013sew,
   author    = {Roland Lezuo and
                Gerg{\"{o}} Barany and
@@ -70,3 +63,4 @@
   timestamp = {Tue, 15 Mar 2016 11:26:11 +0100},
 }
 </code>
+

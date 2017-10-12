@@ -16,34 +16,36 @@
 
 === Philipp Paulweber ===
 
-//Founder of **casm-lang**, project leader of **casm**, compiler construction enthusiast etc.//
-
+//Founder of **casm-lang**, 
+project leader of **casm**, 
+compiler construction enthusiast 
+etc.//
 
 == ==
+<grid>
+<col lg="6" md="12">
+== About ==
 
 Philipp Paulweber is a PhD student, teaching and research assistent at the University of Vienna,
 holding a Master of Science (MSc, in German Dipl-Ing.) degree in computer engineering from the Vienna University of
 Technology since 2014.
-
-
-<grid>
+</col>
 <col lg="6" md="12">
 == Practical Experience ==
+
 He was formerly employed at the real-time communication and safety-critical
 software/hardware engineering company Time-Triggered Technology located in Vienna
 and was involved in automotive software system architecture design and development
 applying standards like the ISO 26262 and AUTOSAR.
 </col>
-<col lg="6" md="12">
-== TODO ==
-</col>
 </grid>
-
 <grid>
 <col lg="6" md="12">
 == TODO ==
+
 </col>
 <col lg="6" md="12">
 == Publications ==
+
 </col>
 </grid>

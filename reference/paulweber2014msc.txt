@@ -1,0 +1,9 @@
+
+<code bibtex>
+@Comment{refnotes,namespace = "cite"}
+
+@mastersthesis{paulweber2014msc,
+  author    = {Philipp Paulweber},
+  title     = {{A}n optimizing {C}ompiler for the {A}bstract {S}tate {M}achine {L}anguage {CASM}},
+}
+</code>

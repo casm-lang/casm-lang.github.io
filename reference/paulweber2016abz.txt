@@ -1,13 +1,28 @@
-=== ===
-<callout>
-P. Paulweber and U. Zdun. A Model-Based Transformation Approach to Reuse and Retarget CASM Specifications. In Abstract State Machines, Alloy, B, TLA, VDM, and Z - 5th International Conference, ABZ 2016, Lecture Notes in Computer Science 9675, pages 250–255. Springer, 2016.
-</callout>
+=== A Model-Based Transformation Approach to Reuse and Retarget CASM Specifications ===
+
+P. Paulweber and U. Zdun. In Abstract State Machines, Alloy, B, TLA, VDM, and Z - 5th International Conference, ABZ 2016, Lecture Notes in Computer Science 9675, pages 250–255. Springer, 2016.
+
 == ==
-{{tag>publication conference paper ppaulweber uzdun}}
+{{tag>publication conference paper abz 2016 ppaulweber uzdun}}
 
 == Abstract ==
 
-TBD
+Abstract. The Abstract State Machine (ASM) theory is a way to spec-
+ify algorithms, applications and systems in a formal model. Recent ASM
+languages and tools address either the translation of ASM specifications
+to a specific target programming language or aim at the execution in a
+specific environment. In this work-in-progress paper we outline a model-
+based transformation approach supporting (1) the specification of appli-
+cations or systems using the Corinthian Abstract State Machine (CASM)
+modeling language and (2) retargeting those applications to different
+programming language and hardware target domains. An intermediate
+model is introduced, which not only captures software-based implemen-
+tations, but also the generation of hardware-related code in the same
+model. This approach offers a new formal modeling perspective onto
+modular, reusable and retargetable software and hardware designs for
+the development of embedded systems. We provide a short overview of
+our CASM compiler design as well as the retargetable model-based ap-
+proach to generate code for different target domains.
 
 == BibTex ==
 <code bibtex>

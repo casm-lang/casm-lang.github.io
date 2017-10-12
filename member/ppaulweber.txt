@@ -45,6 +45,6 @@ applying standards like the ISO 26262 and AUTOSAR.
 </col>
 <col lg="6" md="12">
 == Publications ==
-
+{{page>reference:paulweber@YEAR@*&noindent&nofooter&firstseconly&rsort}}
 </col>
 </grid>

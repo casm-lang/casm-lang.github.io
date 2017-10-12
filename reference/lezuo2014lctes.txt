@@ -1,0 +1,20 @@
+=== ===
+<callout>
+R. Lezuo, P. Paulweber, and A. Krall. 
+CASM - Optimized Compilation of Abstract State Machines. 
+In SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems (LCTES), 
+pages 13–22. ACM, 2014.
+</callout>
+== ==
+{{tag>publication conference paper rlezuo ppaulweber akrall}}
+
+== Abstract ==
+
+TBD
+
+== BibTex ==
+<code bibtex>
+@Comment{refnotes,namespace = "cite"}
+
+
+</code>

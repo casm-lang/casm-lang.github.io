@@ -1,7 +1,7 @@
 == ==
 <callout>
 P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and Retarget CASM Specifications**. In //Abstract State Machines, Alloy, B, TLA, VDM, and Z - 5th International Conference//, ABZ 2016, Lecture Notes in Computer Science 9675, pages 250–255. Springer, 2016.
-[[https://eprints.cs.univie.ac.at/4640/1/paper_Paulweber.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
+[[https://casm-lang.org/reference/paulweber2016abz.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
 [[https://dx.doi.org/10.1007/978-3-319-33600-8_17|{{icon>book?lg|Printed Version}}]]
 [[https://casm-lang.org/reference/paulweber2016abz#bibtex|{{icon>quote-right|BibTex Reference}}]]
 </callout>

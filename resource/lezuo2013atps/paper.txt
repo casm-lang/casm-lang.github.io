@@ -1,6 +1,6 @@
 === ATPS'13 Workshop Paper ===
 <callout>
-R. Lezuo, G. Barany, and A. Krall. **CASM: Implementing an Abstract State Machine based Programming Language**. In //Software Engineering 2013 Workshopband//, 6. Arbeitstagung Programmiersprachen, ATPS 2013, 26th February - 1st March 2013 in Aachen, Volume 215 of GI Edition - Lecture Notes in Informatics, pages 75--90, February 2013. ISBN 978--3- 88579--609--1, pages 75–90. 2013.
+R. Lezuo, G. Barany, and A. Krall. **CASM: Implementing an Abstract State Machine based Programming Language**. In //Software Engineering 2013 Workshopband//, 6. Arbeitstagung Programmiersprachen, ATPS 2013, 26th February - 1st March 2013 in Aachen, Volume 215 of GI Edition - Lecture Notes in Informatics, pages 75–90. February, 2013.
 [[https://publik.tuwien.ac.at/files/PubDat_220246.pdf|{{icon>file-pdf-o?lg|Workshop Version}}]]
 [[https://www.gi.de/service/publikationen/lni/gi-edition-proceedings-2013/gi-edition-lecture-notes-in-informatics-lni-p-215.html|{{icon>book?lg|Printed Version}}]]
 [[https://casm-lang.org/resource/lezuo2013atps/paper#bibtex|{{icon>quote-right|BibTex Reference}}]]

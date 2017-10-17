@@ -1,3 +1,4 @@
+<callout>
 <html>
 <div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
 <img class="img-circle" style="height: 80px;" src="/_media/member/ppaulweber.png">
@@ -18,6 +19,7 @@
 project leader of **casm**, 
 compiler construction enthusiast 
 etc.//
+</callout>
 == ==
 {{tag>member ppaulweber}}
 

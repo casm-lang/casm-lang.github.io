@@ -19,4 +19,9 @@ href="https://twitter.com/casm_lang">Tweets by @casm_lang
 </div>
 </html>
 </col>
+
+<col lg="6" md="12">
+== Talks, Events, and Workshops ==
+{{tagtopic>talk&noindent&noheader&nofooter&firstseconly&rsort}}
+</col>
 </grid>

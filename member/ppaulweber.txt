@@ -15,7 +15,7 @@
 <col>[[https://ppaulweber.com|{{icon>globe?lg|Personal Page}}]]</col>
 <col>[[https://cs.univie.ac.at/philipp.paulweber|{{icon>university?lg|Employment Page}}]]</col>
 </grid>
-=== Philipp Paulweber ===
+== Philipp Paulweber ==
 //Founder of **casm-lang**, 
 project leader of **casm**, 
 compiler construction enthusiast 

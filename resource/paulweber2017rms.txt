@@ -1,0 +1,24 @@
+=== RobMoSys'17 Pitch Talk ===
+<callout>
+P. Paulweber and U. Zdun. **RobMoSys meets CASM**. Pitch Talk Presenation at the //RobMoSys 2nd Brokerage Day//, Germany, Frankfurt, 26th August, 2017.
+[[https://casm-lang.org/_media/resource/paulweber2017rms.pdf|{{icon>file-pdf-o?lg|Presentation Slides}}]]
+[[https://casm-lang.org/resource/paulweber2017rms#bibtex|{{icon>quote-right|BibTex Reference}}]]
+</callout>
+== ==
+{{tag>publication talk robmosys 2017 ppaulweber uzdun}}
+
+
+== BibTex ==
+<code bibtex>
+@Comment{refnotes,
+  namespace    = "cite"
+}
+@misc{paulweber2017rms,
+  title        = {{R}ob{M}o{S}ys meets {CASM}},
+  author       = {Paulweber, Philipp and Zdun, Uwe},
+  howpublished = {Presentation Slides},
+  month        = {August},
+  year         = {2017},
+  note         = {\url{https://casm-lang.org/_media/resource/paulweber2017rms.pdf}},
+}
+</code>

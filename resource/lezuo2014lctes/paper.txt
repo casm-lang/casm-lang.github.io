@@ -1,0 +1,40 @@
+=== LCTES'14 Conference Paper ===
+<callout>
+R. Lezuo, P. Paulweber, and A. Krall. **CASM - Optimized Compilation of Abstract State Machines**. In //SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems//, LCTES 2017, pages 13–22. ACM, 2014.
+[[https://www.complang.tuwien.ac.at/andi/papers/lctes_14.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
+[[https://doi.org/10.1145/2666357.2597813|{{icon>book?lg|Printed Version}}]]
+[[https://casm-lang.org/resource/lezuo2014lctes/paper#bibtex|{{icon>quote-right|BibTex Reference}}]]
+</callout>
+== ==
+{{tag>publication conference paper lctes 2014 rlezuo ppaulweber akrall}}
+
+
+== Abstract ==
+
+In this paper we present CASM, 
+a language based on Abstract State Machines (ASM), 
+and its optimizing compiler. 
+ASM is a well-defined (formal) method based on algebraic concepts. 
+A distinct feature of ASM is its combination of parallel and sequential execution semantics. 
+This makes it an excellent choice to formally specify and verify micro-architectures. 
+We present a compilation scheme and an implementation of a runtime system supporting efficient execution of ASM.
+After introducing novel analysis techniques we present optimizations allowing us to eliminate many costly operations.
+Benchmark results show that our baseline compiler is 2-3 magnitudes faster than other ASM implementations. 
+The optimizations further increase the performance of the compiled programs up to 264%. 
+The achieved performance allows our ASM implementation to be used with industry-size applications.
+
+
+== BibTex ==
+<code bibtex>
+@Comment{refnotes,
+  namespace    = "cite"
+}
+@inproceedings{lezuo2014lctes,
+  title        = {{CASM} - {O}ptimized {C}ompilation of {A}bstract {S}tate {M}achines},
+  author       = {Lezuo, Roland and Paulweber, Philipp and Krall, Andreas},
+  booktitle    = {SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems, LCTES 2017},
+  pages        = {13--22},
+  year         = {2014},
+  publisher    = {ACM}
+}
+</code>

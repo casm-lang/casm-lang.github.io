@@ -1,7 +1,7 @@
 === RobMoSys'17 Pitch Talk ===
 <callout>
-P. Paulweber and U. Zdun. **RobMoSys meets CASM**. Pitch Talk Presenation at the //RobMoSys 2nd Brokerage Day//, Germany, Frankfurt, 26th August, 2017.
-[[https://casm-lang.org/_media/resource/paulweber2017rms/talk.pdf|{{icon>file-pdf-o?lg|Presentation Slides}}]]
+P. Paulweber and U. Zdun. **RobMoSys meets CASM**. Pitch Talk Presenation at the //RobMoSys 2nd Brokerage Day//, Frankfurt, Germany, 26th August, 2017.
+[[https://casm-lang.org/_media/resource/paulweber2017rms/talk.pdf|{{icon>file-pdf-o?lg|Talk Slides}}]]
 [[https://casm-lang.org/resource/paulweber2017rms/talk#bibtex|{{icon>quote-right|BibTex Reference}}]]
 </callout>
 == ==

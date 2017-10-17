@@ -1,6 +1,6 @@
 === ATPS'13 Workshop Talk ===
 <callout>
-R. Lezuo, G. Barany, and A. Krall. **CASM: Implementing an Abstract State Machine based programming language**. Workshop Talk at the //Software Engineering 2013 Workshop//, 6. Arbeitstagung Programmiersprachen, ATPS 2013, Germany, Aachen, 26th February, 2013.
+R. Lezuo, G. Barany, and A. Krall. **CASM: Implementing an Abstract State Machine based programming language**. Workshop Talk at the //Software Engineering 2013 Workshop//, 6. Arbeitstagung Programmiersprachen, ATPS 2013, Aachen, Germany, 26th February, 2013.
 [[https://www.complang.tuwien.ac.at/gergo/papers/casm-slides.pdf|{{icon>file-pdf-o?lg|Talk Slides}}]]
 [[https://casm-lang.org/resource/lezuo2013atps/talk#bibtex|{{icon>quote-right|BibTex Reference}}]]
 </callout>
@@ -16,8 +16,7 @@ R. Lezuo, G. Barany, and A. Krall. **CASM: Implementing an Abstract State Machin
 @misc{lezuo2013atps-talk,
   title        = {{CASM}: {I}mplementing an {A}bstract {S}tate {M}achine based programming language},
   author       = {Lezuo, Roland and Barany, Gerg{\"o} and Krall, Andreas},
-  howpublished = {Presentation Slides},
-  booktitle    = {Software Engineering Conference (Workshops), Arbeitstagung Programmiersprachen, ATPS 2013},
+  howpublished = {ATPS'13 Talk Slides},
   month        = {February},
   year         = {2013},
   note         = {\url{https://www.complang.tuwien.ac.at/gergo/papers/casm-slides.pdf}}

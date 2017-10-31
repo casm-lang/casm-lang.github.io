@@ -1,0 +1,24 @@
+=== RAPIDO'13 Workshop Talk ===
+<callout>
+R. Lezuo, and A. Krall. **Using the CASM Language for Simulator Synthesis and Model Verification**. Workshop Talk at the //Workshop on Rapid Simulation and Performance Evaluation: Methods and Tools//, RAPIDO 2013, Berlin, Germany, 21st January, 2013.
+[[TODO|{{icon>file-pdf-o?lg|Talk Slides}}]]
+[[https://casm-lang.org/resource/lezuo2013rapido/talk#bibtex|{{icon>quote-right|BibTex Reference}}]]
+</callout>
+== ==
+{{tag>publication workshop talk rapido 2013 rlezuo akrall}}
+
+
+== BibTex ==
+<code bibtex>
+@Comment{refnotes,
+  namespace    = "cite"
+}
+@misc{lezuo2013rapido-talk,
+  title        = {{U}sing the {CASM} {L}anguage for {S}imulator {S}ynthesis and {M}odel {V}erification},
+  author       = {Lezuo, Roland and Krall, Andreas},
+  howpublished = {RAPIDO'13 Talk Slides},
+  month        = {January},
+  year         = {2013},
+  note         = {\url{TODO}}
+}
+</code>

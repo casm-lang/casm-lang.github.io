@@ -16,7 +16,7 @@ P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and R
 @misc{paulweber2016abz-talk,
   title        = {{A} {M}odel-{B}ased {T}ransformation {A}pproach to {R}euse and {R}etarget {CASM} {S}pecifications},
   author       = {Paulweber, Philipp and Zdun, Uwe},
-  howpublished = {Presentation Slides},
+  howpublished = {ABZ'16 Talk Slides},
   month        = {May},
   year         = {2016},
   note         = {\url{https://casm-lang.org/_media/resource/paulweber2016abz/talk.pdf}}

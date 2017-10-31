@@ -1,0 +1,37 @@
+=== EPILOG'15 Talk & Poster ===
+<callout>
+P. Paulweber. **An optimizing Compiler for the Abstract State Machine Language CASM**. Event Talk at the //Distinguished Young Alumnus Award Competition//, EPILOG 2015, Vienna University of Technology, Vienna, Austria, 18th June, 2015.
+[[https://casm-lang.org/_media/resource/paulweber2015epilog/talk.pdf|{{icon>file-pdf-o?lg|Talk Slides}}]]
+[[https://casm-lang.org/_media/resource/paulweber2015epilog/poster.pdf|{{icon>file-pdf-o?lg|Poster}}]]
+[[https://casm-lang.org/resource/paulweber2017rms/talk#bibtex|{{icon>quote-right|BibTex Reference}}]]
+</callout>
+== ==
+{{tag>publication event talk poster epilog 2015 ppaulweber}}
+
+== Information ==
+
+see: http://www.informatik.tuwien.ac.at/aktuelles/1006
+
+
+== BibTex ==
+<code bibtex>
+@Comment{refnotes,
+  namespace    = "cite"
+}
+@misc{paulweber2015epilog-talk,
+  title        = {{A}n optimizing {C}ompiler for the {A}bstract {S}tate {M}achine {L}anguage {CASM}},
+  author       = {Paulweber, Philipp},
+  howpublished = {EPILOG'15 Talk Slides},
+  month        = {June},
+  year         = {2015},
+  note         = {\url{https://casm-lang.org/_media/resource/paulweber2015epilog/talk.pdf}},
+}
+@misc{paulweber2015epilog-poster,
+  title        = {{A}n optimizing {C}ompiler for the {A}bstract {S}tate {M}achine {L}anguage {CASM}},
+  author       = {Paulweber, Philipp},
+  howpublished = {EPILOG'15 Poster},
+  month        = {June},
+  year         = {2015},
+  note         = {\url{https://casm-lang.org/_media/resource/paulweber2015epilog/poster.pdf}},
+}
+</code>

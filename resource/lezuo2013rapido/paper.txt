@@ -1,0 +1,40 @@
+=== RAPIDO'13 Workshop Paper ===
+<callout>
+R. Lezuo, and A. Krall. **Using the CASM Language for Simulator Synthesis and Model Verification**. In //Proceedings of the 2013 Workshop on Rapid Simulation and Performance Evaluation: Methods and Tools//, RAPIDO 2013, Berlin, Germany, 21st January, 2013.
+[[https://www.complang.tuwien.ac.at/andi/papers/rapido_13.pdf|{{icon>file-pdf-o?lg|Workshop Version}}]]
+[[https://doi.org/10.1145/2432516.2432522|{{icon>book?lg|Printed Version}}]]
+[[https://casm-lang.org/resource/lezuo2013rapido/paper#bibtex|{{icon>quote-right|BibTex Reference}}]]
+</callout>
+== ==
+{{tag>publication workshop paper rapido 2013 rlezuo akrall}}
+
+
+== Abstract ==
+
+We present the CASM language, an abstract state machine (ASM) based modeling 
+language originally designed for verifying compiler backends. 
+We demonstrate the expressiveness by describing an instruction set simulator (ISS) 
+for MIPS in approximately 700 lines of code. 
+Further we present a refinement of the models to cycle-accurately describe 
+two implementations of the classic 5-stage MIPS pipeline. 
+Utilizing symbolic execution allows us to prove semantic equivalence of the 
+pipeline implementations and the instruction set description. 
+Finally we compile the models to C++ and provide a small 
+runtime to create a system simulator achieving a performance 
+of approx. 1 MHz in MiBench and SPECInt2000 benchmarks.
+
+
+== BibTex ==
+<code bibtex>
+@Comment{refnotes,
+  namespace    = "cite"
+}
+@inproceedings{lezuo2013rapido,
+  title        = {{U}sing the {CASM} {L}anguage for {S}imulator {S}ynthesis and {M}odel {V}erification},
+  author       = {Lezuo, Roland and Krall, Andreas},
+  booktitle    = {Proceedings of the 2013 Workshop on Rapid Simulation and Performance Evaluation: Methods and Tools, RAPIDO'13},
+  pages        = {6},
+  year         = {2013},
+  publisher    = {ACM}
+}
+</code>

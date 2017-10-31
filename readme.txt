@@ -1,4 +1,5 @@
 ~~Title: Website ~~
+~~NOTOC~~
 
 <grid>
 <col lg="6" md="12">
@@ -21,7 +22,19 @@ href="https://twitter.com/casm_lang">Tweets by @casm_lang
 </col>
 
 <col lg="6" md="12">
+===== Publications =====
+{{tagtopic>paper&noindent&noheader&nofooter&firstseconly&rsort}}
+</col>
+</grid>
+
+<grid>
+<col lg="6" md="12">
 ===== Talks, Events, and Workshops =====
 {{tagtopic>talk&noindent&noheader&nofooter&firstseconly&rsort}}
+</col>
+
+<col lg="6" md="12">
+===== Theses =====
+{{tagtopic>thesis&noindent&noheader&nofooter&firstseconly&rsort}}
 </col>
 </grid>

@@ -11,10 +11,7 @@ $G$$u$$n$$t$$h$$e$$r$$s$$t$$r$$a$$ß$$e$ $1$<html><br></html>
 $1$$1$$5$$0$ $V$$i$$e$$n$$n$$a$<html><br></html>
 $A$$u$$s$$t$$r$$i$$a$
 
-Phone:  $+$$4$$3$ $6$$8$$1$ $8$$4$ $9$$2$$4$ $9$$6$$7$
-
-E-Mail: <casm-lang@casm-lang.org>
-
+E-Mail: <casm-lang@casm-lang.org> <html><br></html>
 Website: https://casm-lang.org
 
 ===== Notice of liability =====

@@ -1,0 +1,7 @@
+<page-header></page-header>
+<TEXT align="center">
+Copyright (c) 2014-@YEAR@ CASM Organistion.
+</TEXT>
+<TEXT align="center">
+All rights reserved.
+</TEXT>

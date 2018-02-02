@@ -6,11 +6,12 @@ Information disclosed under Section 5 Austrian E-Commerce Act (Federal Law Gazet
 
 ===== Contact =====
 
-$P$$h$$i$$l$$i$$p$$p$ $P$$a$$u$$l$$w$$e$$b$$e$$r$<html><br></html>
+$C$$A$$S$$M$ $O$$r$$g$$a$$n$$i$$z$$a$$t$$i$$o$$n$<html><br></html>
 $G$$u$$n$$t$$h$$e$$r$$s$$t$$r$$a$$ß$$e$ $1$<html><br></html>
 $1$$1$$5$$0$ $V$$i$$e$$n$$n$$a$<html><br></html>
 $A$$u$$s$$t$$r$$i$$a$
 
+Owner: $P$$h$$i$$l$$i$$p$$p$ $P$$a$$u$$l$$w$$e$$b$$e$$r$<html><br></html>
 E-Mail: <casm-lang@casm-lang.org> <html><br></html>
 Website: https://casm-lang.org
 
@@ -20,11 +21,11 @@ Despite careful examination, we assume no liability for external links. Responsi
 
 ===== Copyright =====
 
-All contents, texts, graphics, layouts, code or software Copyright (c) 2014-@YEAR@ CASM Organistion. All Rights reserved. Any usage of material or information available on this website, including the reproduction, sales, alteration and publication is prohibited unless specifically approved by the CASM Organistion.
+All contents, texts, graphics, layouts, code or software Copyright (c) 2014-@YEAR@ CASM Organization. All Rights reserved. Any usage of material or information available on this website, including the reproduction, sales, alteration and publication is prohibited unless specifically approved by the CASM Organization.
 
 ===== Domain, Encryption and Servers =====
 
-The Top-Level Domain (TLD) https://casm-lang.org and all sub-domains are provided by the services from https://selfhost.de, the SSL/TSL certificate for encryption is provided by the services from https://letsencrypt.org, and the (virtual) server infrastructure is provided by https://digitalocean.com with location in Frankfurt, Germany.
+The Top-Level Domain (TLD) https://casm-lang.org and all sub-domains are provided by the services from https://selfhost.de, the SSL/TLS certificate for encryption is provided by the services from https://letsencrypt.org, and the (virtual) server infrastructure is provided by https://digitalocean.com with location in Frankfurt, Germany.
 
 ===== Cookies and Analytics =====
 

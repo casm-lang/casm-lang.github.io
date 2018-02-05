@@ -1,6 +1,6 @@
 <page-header></page-header>
 <TEXT align="center">
-Copyright (c) 2014-@YEAR@ CASM Organistion.
+Copyright (c) 2014-@YEAR@ CASM Organization.
 </TEXT>
 <TEXT align="center">
 All rights reserved.

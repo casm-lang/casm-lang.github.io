@@ -6,8 +6,12 @@ P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and R
 </callout>
 == ==
 {{tag>publication conference talk abz 2016 ppaulweber uzdun}}
-
-
+<grid>
+<col lg="8" md="12">
+== Document ==
+{{pdfjs 562px>:resource:paulweber2016abz:talk.pdf?page-width@2}}
+</col>
+<col lg="4" md="12">
 == BibTex ==
 <code bibtex>
 @Comment{refnotes,
@@ -19,6 +23,8 @@ P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and R
   howpublished = {ABZ'16 Talk Slides},
   month        = {May},
   year         = {2016},
-  note         = {\url{https://casm-lang.org/_media/resource/paulweber2016abz/talk.pdf}}
+  note         = {\url{https://casm-lang.org/resource/paulweber2016abz/talk}}
 }
 </code>
+</col>
+</grid>

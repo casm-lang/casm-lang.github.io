@@ -8,22 +8,25 @@ P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and R
 == ==
 {{tag>publication conference paper abz 2016 ppaulweber uzdun}}
 
-{{pdfjs 640px>:resource:paulweber2016abz:paper.pdf}}
-
+<grid>
+<col lg="6" md="12">
+{{pdfjs 640px>:resource:paulweber2016abz:paper.pdf?page-width|asdf}}
+</col>
+<col lg="6" md="12">
 == BibTex ==
 <code bibtex>
 @Comment{refnotes,
   namespace    = "cite"
 }
 @inproceedings{paulweber2016abz,
-  title        = {{A} {M}odel-{B}ased {T}ransformation {A}pproach to {R}euse and {R}etarget {CASM} {S}pecifications},
-  author       = {Paulweber, Philipp and Zdun, Uwe},
-  booktitle    = {Abstract State Machines, Alloy, B, TLA, VDM, and Z - 5th International Conference, ABZ 2016},
-  series       = {Lecture Notes in Computer Science 9675},
-  pages        = {250--255},
-  year         = {2016},
-  publisher    = {Springer},
+  title     = {{A} {M}odel-{B}ased {T}ransformation {A}pproach to {R}euse and {R}etarget {CASM} {S}pecifications},
+  author    = {Paulweber, Philipp and Zdun, Uwe},
+  booktitle = {Abstract State Machines, Alloy, B, TLA, VDM, and Z - 5th International Conference, ABZ 2016},
+  series    = {Lecture Notes in Computer Science 9675},
+  pages     = {250--255},
+  year      = {2016},
+  publisher = {Springer},
 }
 </code>
-
-
+</col>
+</grid>

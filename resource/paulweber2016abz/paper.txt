@@ -9,10 +9,10 @@ P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and R
 {{tag>publication conference paper abz 2016 ppaulweber uzdun}}
 
 <grid>
-<col lg="6" md="12">
-{{pdfjs 640px>:resource:paulweber2016abz:paper.pdf?page-width|asdf}}
+<col lg="8" md="12">
+{{pdfjs 712px>:resource:paulweber2016abz:paper.pdf?page-width|asdf}}
 </col>
-<col lg="6" md="12">
+<col lg="4" md="12">
 == BibTex ==
 <code bibtex>
 @Comment{refnotes,

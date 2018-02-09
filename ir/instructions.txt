@@ -1,3 +1,173 @@
 ====== IR Instructions ======
 
-TBD
+Basic expressions, terms and state-modifying rules are represented as instructions 
+in a Single Static Assignment (SSA) form. So produced results of instructions are 
+stored in registers and the type is directly yielded from the specified instruction. 
+So any instruction can be specified by a resulting unique register name, 
+an instruction name and possible instruction operands with explicit types. 
+Basic ASM rules like ''skip'', or the definition of execution semantics
+(''fork'' and ''merge'') are represented as a single instructions. 
+Novel in CASM-IR is that it explicitly models the reading (''lookup'') and 
+writing (''update'') of ASM functions by dedicated instructions.
+All instructions follow the given Extended Backus–Naur Form (EBNF) grammar definition:
+  Register    ::= "%" identifier
+  Global      ::= "@" identifier
+  Argument    ::= Type [ Register | Global ]
+  Instruction ::= Register "=" identifier [ Argument { "," Argument }* ]
+
+===== Location Instruction ===== 
+A location instruction performs the function location
+calculation. How the location is calculated is not fixed and has to be decided in
+the run-time implementation. E.g. a common technique would be the calculation
+of a function location by a hashing algorithm. Listing given below shows an example
+specification of a unary function location calculation with a defined relation
+$f : Integer → Integer$. The result of the location instruction yields a location
+type constant.
+<code>
+%r0 = ;; ... calculation which yields result of type ’i’
+%r1 = location < i -> i > @f, i %r0 ;; yields type ’loc’
+</code>
+
+===== Lookup Instruction ===== 
+The lookup instruction determines at a certain point in
+the specification, which state value is assigned to a certain function depending on
+the nested parallel and sequential execution semantics. The argument needed to
+perform a lookup is a location constant. Listing given below depicts an example lookup
+for a unary function with relation $f : Integer → Integer$. The result of the
+lookup instruction yields a constant of the return type from the used function,
+in this case an integer type i.
+<code>
+%r0 = ;; ... calculation which yields result of type ’i’
+%r1 = location < i -> i > @f , i %r0 ;; yields type ’loc’
+%r2 = lookup loc %r1 ;; yields type ’i ’
+</code>
+
+===== Update Instruction ===== 
+An update instruction produces a new location and value
+pair, which gets applied to the surrounding (local) function state also known
+as pseudo state. Therefore, an update instruction needs besides the exact
+calculated function location a value operand. 
+Listing given below shows an example update of a unary function with the 
+relation $f : Integer → Integer$.
+<code>
+%r0 = ;; ... calculation which yields result of type ’i’
+%r1 = location < i -> i > @f , i %r0 ;; yields type ’loc’
+update loc %r1 , i %r0
+</code>
+
+===== Call Instruction ===== 
+Similar to traditional assembler languages, the CASM-IR
+includes a call instruction as well, but this call instruction is used for multiple
+invocation types. It is used to call specified ASM rules, ASM derived expressions,
+and pre-defined CASM-IR built-ins either directly by its name or indirectly
+through a register value of a reference type. Listing given below shows two examples; 1) shows a direct call of a rule ''foo'' with relation $foo : Integer -> Integer$; 2) shows a indirect call of a rule ''bar'' with relation $bar : Integer -> Integer$ through a register:
+<code>
+@c0 = i 123
+;; ...
+%r0 = call < i -> i > @foo, i @c0 ;; yields type ’i’
+;; ...
+@c1 = r< i -> i > @demo
+%r2 = call r< i -> i > @c1, i @c0 ;; yields type ’i’
+</code>
+
+===== Operator Instructions ===== 
+To perform intermediate calculations (expressions, terms, and so on), 
+we define the following logical, compare, and arithmetic instructions with their semantics accordingly.
+
+==== Arithmetic Instructions ====
+\begin{align*}
+add & : Integer * Integer \rightarrow Integer \\
+add( a, b ) &= \begin{cases}
+undef & \text{if } ~(a =    undef) \lor  (b = undef)  \\
+sym'  & \text{if } ((a \neq undef) \land (b = sym  )) \veebar ((a = sym) \land (b \neq undef)) \\
+a + b & \text{if } ~otherwise
+\end{cases} \\
+\\
+sub & : Integer * Integer \rightarrow Integer \\
+sub( a, b ) &= \begin{cases}
+undef & \text{if } ~(a =    undef) \lor  (b = undef)  \\
+sym'  & \text{if } ((a \neq undef) \land (b = sym  )) \veebar ((a = sym) \land (b \neq undef)) \\
+a - b & \text{if } ~otherwise
+\end{cases} \\
+\\
+mul & : Integer * Integer \rightarrow Integer \\
+mul( a, b ) &= \begin{cases}
+undef & \text{if } ~(a =    undef) \lor  (b = undef)  \\
+sym'  & \text{if } ((a \neq undef) \land (b = sym  )) \veebar ((a = sym) \land (b \neq undef)) \\
+a * b & \text{if } ~otherwise
+\end{cases} \\
+\\
+mod & : Integer * Integer \rightarrow Integer \\
+mod( a, b ) &= \begin{cases}
+undef & \text{if } ~(a =    undef) \lor  (b = undef)  \\
+sym'  & \text{if } ((a \neq undef) \land (b = sym  )) \veebar ((a = sym) \land (b \neq undef)) \\
+a \% b & \text{if } ~otherwise
+\end{cases} \\
+\\
+div & : Integer * Integer \rightarrow Integer \\
+div( a, b ) &= \begin{cases}
+undef        & \text{if } ~(a =    undef) \lor  (b = undef)  \lor (b = 0) \\
+sym'         & \text{if } ((a \neq 0)     \land (b = sym  )) \veebar ((a = sym) \land (b = sym)) \\
+0            & \text{if } ((a =    0)     \land (b \neq 0 )) \veebar ((a = 0  ) \land (b = sym)) \\
+\dfrac{a}{b} & \text{if } ~otherwise
+\end{cases}
+\end{align*}
+
+==== Compare Instructions ====
+\begin{align*}
+equ & : Type * Type \rightarrow Boolean \\
+equ( a, b ) &= \begin{cases}
+true     & \text{if } ~(a = undef) \land (b =    undef)  \\
+false    & \text{if } ((a = undef) \land (b \neq sym  )) \veebar ((a \neq sym) \land (b = undef)) \\
+sym'     & \text{if } ~(a = sym  ) \lor  (b =    sym  )  \\
+a = b    & \text{if } ~otherwise
+\end{cases}\\
+\\
+neq & : Type * Type \rightarrow Boolean \\
+neq( a, b ) &= not( equ( a, b ) ) \\
+\\
+gre & : Integer * Integer \rightarrow Boolean \\
+gre( a, b ) &= \begin{cases}
+undef    & \text{if } ~(a =    undef) \lor  (b = undef)  \\
+sym'     & \text{if } ((a \neq undef) \land (b = sym  )) \veebar ((a = sym) \land (b \neq undef)) \\
+a > b    & \text{if } ~otherwise
+\end{cases} \\
+\\
+geq & : Integer * Integer \rightarrow Boolean \\
+geq( a, b ) &= or( equ( a, b ), gre( a, b ) ) \\
+\\
+les & : Integer * Integer \rightarrow Boolean \\
+les( a, b ) &= \begin{cases}
+undef & \text{if } ~(a =    undef) \lor  (b = undef)  \\
+sym'  & \text{if } ((a \neq undef) \land (a = sym  )) \veebar ((a = sym) \land (b \neq undef)) \\
+a < b & \text{if } ~otherwise
+\end{cases} \\
+\\
+leq & : Integer * Integer \rightarrow Boolean \\
+leq( a, b ) &= or( equ( a, b ), les( a, b ) )
+\end{align*}
+
+==== Logical Instructions ====
+\begin{align*}
+not & : Boolean \rightarrow Boolean \\
+not( a ) &= \begin{cases}
+true  & \text{if } ~a = false \\
+false & \text{if } ~a = true \\
+sym'  & \text{if } ~a = sym \\ 
+undef & \text{if } ~a = undef
+\end{cases}
+\\
+or & : Boolean * Boolean \rightarrow Boolean \\
+or( a, b ) &= \begin{cases}
+true  & \text{if } ~(a = true)  \veebar (b =    true )  \\
+false & \text{if } ~(a = false) \land   (b =    false)  \\
+sym'  & \text{if } ((a = sym)   \land   (b \neq true )) \veebar ((a \neq true) \land (b = sym)) \\
+undef & \text{if } ~otherwise
+\end{cases} \\
+\\
+and & : Boolean * Boolean \rightarrow Boolean \\
+and( a, b ) &= not( or( not( a ), not( b ) ) ) \\
+\\
+xor & : Boolean * Boolean \rightarrow Boolean \\
+xor( a, b ) &= and( or( a, b ), not( and( a, b ) ) ) \\
+\end{align*}

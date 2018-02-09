@@ -1,3 +1,137 @@
 ====== IR Types ======
 
-TBD
+{{ :ir:types.png?nolink |}}
+
+Types in CASM-IR range from very basic primitive types to very abstract ones.
+For a clear definition we list for every kind of type the corresponding Extended
+Backus–Naur Form (EBNF) grammar of the CASM-IR textual representation.
+Moreover, all types are inherited from the base class type T. Our design currently
+distinguishes between the five different categories of types, listed in the following.
+
+===== Synthetic Types =====
+Synthetic types are more or less the IR model internal types.
+
+==== Void Type ====
+In certain situations, like in the relation type, to achieve a well-defined type relation a void type is indispensable.
+   Void ::= "v"
+ 
+==== Label Type ====
+The IR is composed of statements and blocks and those model elements have a label type by default.
+  Label ::= "lbl"
+
+==== Location Type ====
+The location type is similar to a memory address, which points to an exact
+location of a function. This type information is needed for the two main
+operations in ASM contexts – the lookup of a function value and the update
+of a function value.
+  Location ::= "loc"
+
+==== Relation Type ==== 
+The relation type is required to specify all function and rule related type
+mappings.
+  Relation ::= "<" [ T { "," T }* ] -> T ">"
+
+===== Primitive Types =====
+To represent basic data, a set of primitive types are defined
+in the CASM-IR.
+
+==== Boolean Type ====
+The most basic primitive type is the Boolean type to represent a truth value.
+  Boolean ::= "b"
+
+==== Binary Type ====
+The binary type is used to represent bit-precise values with a given bit-size
+integer number were size > 0. CASM-IR includes this type as a first class
+type. Supporting this type has a huge influence on the run-time implementation because  every binary type related built-in operation has to be implemented and supported for every possible bit-size.
+  Binary ::= "u" size
+
+==== Integer Type ====
+Integer types represent in general any number in the range $] −\infty, \infty[$. Additionally any integer type can be bound through two statically known integer numbers $a$ and $b$ to a range $[a, b]$ were $a < b$.
+  Integer ::= "i" [ "’" "[" a ".." b "]" ]
+
+==== Rational Type ====
+To represent fractions consisting of two integer numbers in the IR, we provide
+a Rational type.
+  Rational ::= "q"
+
+==== Decimal Type ====
+The decimal type defines that a certain value will be represented as a 
+floating point number. The precision of the type is not fixed in the IR.
+  Decimal ::= "z"
+
+==== String Type ====
+Any textual representation of data is typed with the string type.
+Reference Types Due to the strong, static typing of CASM-IR, all references
+to rules, functions, and so on have to be typed as well. This is a novel property
+of an ASM IR. We distinguish between rule and function references.
+  String ::= "s"
+
+===== Reference Types =====
+
+==== Rule Reference Type ====
+ASM rules can be triggered by a so called call rule that evaluates a provided
+rule and its arguments, similar to a function call in a traditional program-
+ming language. CASM-IR needs explicit type information to define such references 
+of the callee rule. Therefore rule reference types can specify explicitly
+to which possible target rules the references point.
+  RuleReference ::= "r" Relation
+
+==== Function Reference Type ====
+Similar to the rule reference type, there is also a function reference, 
+allowing us to construct function signatures to state functions, 
+built-ins or derived expressions. 
+The major difference between a rule reference and a function
+reference is that a call to a referenced function, built-in or derived is 
+state-less or side-effect free, 
+meaning that it does not produce updates and does not alter any local or 
+global function states.
+  FunctionReference ::= "f" Relation
+
+===== Composed Types =====
+ASMs can specify and compose new types based on a given definition. 
+We call them composed types. In other programming language contexts, 
+this concept is sometimes called aggregated type or even a constructor type.
+
+==== Enumeration Type ====
+The enumeration type is the only type in the type system with no predefined
+name. It is directly derived from the enumeration definition itself.
+  Enumeration ::= identifier
+
+==== Tuple Type ====
+To construct a n-ary typed tuple type were n > 0.
+  Tuple ::= "t" "<" T { "," T }+ ">"
+
+==== Record Type ====
+To construct a n-ary named typed tuple type were n > 0. 
+  Record ::= "r" "<" identifier ":" T { "," identifier ":" T }+ ">"
+
+===== Template Types =====
+This category of types is used to represent and handle template-based and/or high-level abstractions in the IR. The need for abstraction types is that depending
+on the execution environment, operating system, and so on, we have to represent
+high-level objects such as files in a different way. This is another novel property
+of the IR to explicitly define handling of environment related types.
+
+==== List Type ====
+There is also a list type that can be specified by an underlying sub-type.
+Several other types exist, including trees, sets, or bags, which could also be
+a part of the composed types, but for now we have omitted those types in the
+current version of the CASM-IR.
+  List ::= "l" "<" T ">"
+
+==== Range Type ====
+For some situations like iterations over a range, the range type allows ex-
+plicitly to specify the ranges sub-type.
+  Range ::= "[" T "]"
+
+==== File Type ====
+To be able to read and write to files, a file type encapsulates non-volatile
+storage. The sub-type T defines the data-layout of the file type. e.g.
+file< s > would use a string type to represent the content of the file.
+  File ::= "file" "<" T ">"
+
+==== Port Type ====
+To specify communications and the exchange of messages, we introduce a
+port type. The sub-type T defines the communication message data-layout
+of the port type, e.g. port< t< i, i, s > > would use a tuple type to
+represent the content of exchanged messages.
+  Port ::= "port" "<" T ">"

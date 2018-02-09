@@ -1,3 +1,21 @@
 ====== IR Constants ======
 
-TBD
+Due to the mathematical foundation of ASMs, 
+all constants with a type (''T'') can have besides the 
+type-specified (domain) content, an undefined value (''undef'').
+  Constant ::= "@" identifier "=" Type Value
+
+Furthermore, we directly include in the CASM-IR the notion of symbolic (''sym'')
+values that enable a clear definition of numeric as well as symbolic execution,
+whereas the symbolic values are its own domain. 
+The Listing given below depicts three constant examples --
+an integer, a string, and a rule reference constant:
+
+<code>
+;; integer constant of value ’123’
+@c0 = i 123
+;; string constant of value ’foobar’
+@c1 = s "foobar"
+;; rule reference constant of value ’undef’
+@c2 = r < -> v > undef 
+</code>

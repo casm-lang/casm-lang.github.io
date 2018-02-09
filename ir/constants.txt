@@ -1,8 +1,9 @@
 ====== IR Constants ======
 
 Due to the mathematical foundation of ASMs, 
-all constants with a type (''T'') can have besides the 
-type-specified (domain) content, an undefined value (''undef'').
+all constants with a type (''Type'') can have besides the 
+type-specified (domain) content, an undefined value (''undef''). 
+All type-specific content together with the ''undef'' value is represented in the following Extended Backus–Naur Form (EBNF) definition as ''Value''.
   Constant ::= "@" identifier "=" Type Value
 
 Furthermore, we directly include in the CASM-IR the notion of symbolic (''sym'')

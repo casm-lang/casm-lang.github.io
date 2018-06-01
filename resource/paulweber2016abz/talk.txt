@@ -9,7 +9,7 @@ P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and R
 <grid>
 <col lg="8" md="12">
 == Document ==
-{{pdfjs 562px>:resource:paulweber2016abz:talk.pdf?page-width@2}}
+{{pdfjs 562px>:resource:paulweber2016abz:talk.pdf?page-width}}
 </col>
 <col lg="4" md="12">
 == BibTex ==

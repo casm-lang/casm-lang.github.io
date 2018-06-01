@@ -1,3 +1,5 @@
+== ==
+<callout>
 <html>
 <div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
 <img class="img-circle" style="height: 80px;" src="/_media/member/epescosta.png">
@@ -12,9 +14,17 @@
 <col>[[https://linkedin.com/in/emmanuel-pescosta-666961124|{{icon>linkedin?lg|LinkedIn Page}}]]</col>
 <col>[[http://www.enet.at/de|{{icon>building?lg|Employment Page}}]]</col>
 </grid>
-
 == Emmanuel Pescosta ==
+//Maintainer of **libcasm-fe**, 
+maintainer of **KDE Dolphin -- File Manager**,
+code review and software quality expert
+//
+</callout>
+== ==
+{{tag>member epescosta}}
 
-//TBD.//
+== About ==
 
-TBD ...
+Emmanuel Pescosta is a MSc student at the Vienna University of Technology,
+holding a Bachelor of Science (BSc) degree in software engineering from the Vienna University of
+Technology since 2016.

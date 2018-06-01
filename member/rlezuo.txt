@@ -1,3 +1,5 @@
+== ==
+<callout>
 <html>
 <div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
 <img class="img-circle" style="height: 80px;" src="/_media/member/rlezuo.png">
@@ -10,9 +12,15 @@
 <col>[[https://github.com/rlezuo|{{icon>github?lg|GitHub Page}}]]</col>
 <col>[[http://m42-embedded.at|{{icon>building?lg|Employment Page}}]]</col>
 </grid>
-
 == Roland Lezuo ==
+//Pioneer of **casm**,
+software verification and 
+scalable translation validation specialist 
+//
+</callout>
+== ==
+{{tag>member rlezuo}}
 
-//TBD.//
+== About ==
 
-TBD ...
+Roland Lezuo ...

@@ -1,0 +1,16 @@
+====== IR Functions ======
+
+One of the most important definition element in CASM-IR are functions. 
+They can be specified by using a global symbol and a proper relation [[ir:types|type]] definition. 
+Functions are defined with the following Extended Backus–Naur Form (EBNF) grammar:
+  Function ::= Global "=" Relation
+
+Listing given below defines a nullary function ''@f'' with relation $f : Integer → Integer$, 
+a unary function ''@g'' with relation $g : Integer → String$, and 
+a binary function ''@h'' with relation $h : Boolean ∗ Rational → Decimal$.
+
+<code>
+@f = < -> i >
+@g = < i -> s >
+@h = < b , q -> z >
+</code>

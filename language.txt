@@ -1,0 +1,6 @@
+====== Language ======
+
+The CASM language is a Abstract State Machine (ASM) modeling language. 
+Its [[Syntax]] is influenced in part by [[https://www.uni-ulm.de/in/pm/forschung/projekte/coreasm/|CoreASM]] 
+and other ASM languages. 
+Different to existing languages is that CASM focuses to be a static strong typed language.

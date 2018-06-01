@@ -1,0 +1,51 @@
+=== ABZ'18 Conference Paper ===
+<callout>
+P. Paulweber, E. Pescosta, and U. Zdun. **CASM-IR: Uniform ASM-Based Intermediate Representation for Model Specification, Execution, and Transformation**. In //Abstract State Machines, Alloy, B, TLA, VDM, and Z - 6th International Conference//, ABZ 2018, Lecture Notes in Computer Science 10817, pages 39-54. Springer, 2018.
+[[https://casm-lang.org/_media/resource/paulweber2018abz/paper.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
+[[https://doi.org/10.1007/978-3-319-91271-4_4|{{icon>book?lg|Printed Version}}]]
+[[https://casm-lang.org/resource/paulweber2018abz/paper#bibtex|{{icon>quote-right|BibTex Reference}}]]
+</callout>
+== ==
+{{tag>publication conference paper abz 2018 ppaulweber epescosta uzdun}}
+
+<grid>
+<col lg="4" md="12">
+== Abstract ==
+The Abstract State Machine (ASM) theory is a well-known 
+formal method, which can be used to specify arbitrary algorithms, 
+applications or even whole systems. Over the past years, there have been
+many approaches to implement concrete ASM-based modeling and specification 
+languages. All of those approaches define their type systems
+and operator semantics differently in their internal representation, which
+leads to undesired or unexpected behavior during the modeling, the execution, 
+and code generation of such ASM specifications. In this paper,
+we present CASM-IR, an Intermediate Representation (IR), designed to
+aid ASM-based language engineering which is based on a well-formed
+ASM-based specification format. Moreover, CASM-IR is conceptualized
+from the ground up to ease the formalization of ASM-based analysis and
+transformation passes. The feasibility of CASM-IR solving the uniform
+ASM representation problem is depicted. Based on our CASM-IR 
+implementation, we were able to integrate a front-end of our statically inferred
+Corinthian Abstract State Machine (CASM) modeling language.
+</col>
+<col lg="8" md="12">
+== Document ==
+{{pdfjs 562px>:resource:paulweber2018abz:paper.pdf?page-width}}
+</col>
+</grid>
+
+== BibTex ==
+<code bibtex>
+@Comment{refnotes,
+  namespace    = "cite"
+}
+@inproceedings{paulweber2018abz,
+  title        = {{CASM-IR}: {U}niform {ASM}-{B}ased {I}ntermediate {R}epresentation for {M}odel {S}pecification, {E}xecution, and {T}ransformation},
+  author       = {Paulweber, Philipp and Pescosta, Emmanuel and Zdun, Uwe},
+  booktitle    = {Abstract State Machines, Alloy, B, TLA, VDM, and Z - 6th International Conference, ABZ 2018},
+  series       = {Lecture Notes in Computer Science 10817},
+  pages        = {39--54},
+  year         = {2018},
+  publisher    = {Springer},
+}
+</code>

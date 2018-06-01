@@ -1,3 +1,5 @@
+== ==
+<callout>
 <html>
 <div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
 <img class="img-circle" style="height: 80px;" src="/_media/member/akrall.png">
@@ -9,9 +11,15 @@
 <grid>
 <col>[[http://www.complang.tuwien.ac.at/andi|{{icon>university?lg|Employment Page}}]]</col>
 </grid>
-
 == Andreas Krall ==
+//Scientific contributor to **casm**,
+professor at TU Vienna,
+loves computer languages.
+//
+</callout>
+== ==
+{{tag>member akrall}}
 
-//TBD.//
+=== About ===
 
-TBD ...
+Andreas Krall is a full professor at the Institute for Computer Languages at the Vienna University of Technology (TU Wien). His interests are in the area of compilers, virtual machines, logic programming, programming languages and computer architecture.

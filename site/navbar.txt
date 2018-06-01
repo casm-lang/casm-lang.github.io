@@ -1,4 +1,6 @@
 <nav type="pills">
+  * [[:language|Language]]
+  * [[:download|Download]]
   * [[:#news|News]]
   * [[:site:notice|Site Notice]]
 </nav>

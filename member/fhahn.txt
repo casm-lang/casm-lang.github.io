@@ -1,3 +1,5 @@
+== ==
+<callout>
 <html>
 <div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
 <img class="img-circle" style="height: 80px;" src="/_media/member/fhahn.png">
@@ -12,9 +14,20 @@
 <col>[[https://linkedin.com/in/flohahn|{{icon>linkedin?lg|LinkedIn Page}}]]</col>
 <col>[[https://fhahn.com|{{icon>globe?lg|Personal Page}}]]</col>
 </grid>
-
 == Florian Hahn ==
+//Developer of **libcasm-fe**, 
+loves compilers, programming languages, 
+and software engineering.
+//
+</callout>
+== ==
+{{tag>member fhahn}}
 
-//TBD.//
+== About ==
 
-TBD ...
+Florian Hahn is currently working as a software engineer at ARM's Manchester office, 
+where his work contains the improvement of upstream LLVM support of ARM's Scalable Vector Extension and 
+open-sourcing code from the commercial HPC compiler.
+
+He graduated from ETH Zürich earning a Master's degree in Computer Science. 
+In 2014 he received a Bachelor's degree in Computer Science from Vienna University of Technology.

@@ -1,6 +1,6 @@
 === LCTES'14 Conference Paper ===
 <callout>
-R. Lezuo, P. Paulweber, and A. Krall. **CASM - Optimized Compilation of Abstract State Machines**. In //SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems//, LCTES 2017, pages 13–22. ACM, 2014.
+R. Lezuo, P. Paulweber, and A. Krall. **CASM - Optimized Compilation of Abstract State Machines**. In //SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems//, LCTES 2014, pages 13–22. ACM, 2014.
 [[https://www.complang.tuwien.ac.at/andi/papers/lctes_14.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
 [[https://doi.org/10.1145/2666357.2597813|{{icon>book?lg|Printed Version}}]]
 [[https://casm-lang.org/resource/lezuo2014lctes/paper#bibtex|{{icon>quote-right|BibTex Reference}}]]
@@ -32,7 +32,7 @@ The achieved performance allows our ASM implementation to be used with industry-
 @inproceedings{lezuo2014lctes,
   title        = {{CASM} - {O}ptimized {C}ompilation of {A}bstract {S}tate {M}achines},
   author       = {Lezuo, Roland and Paulweber, Philipp and Krall, Andreas},
-  booktitle    = {SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems, LCTES 2017},
+  booktitle    = {SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems, LCTES 2014},
   pages        = {13--22},
   year         = {2014},
   publisher    = {ACM}

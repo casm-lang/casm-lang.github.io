@@ -16,39 +16,22 @@
 <col>[[https://cs.univie.ac.at/philipp.paulweber|{{icon>university?lg|Employment Page}}]]</col>
 </grid>
 == Philipp Paulweber ==
-//Founder of **casm-lang**, 
+//Founder and owner of **casm-lang**, 
 project leader of **casm**, 
 compiler construction enthusiast 
-etc.//
+//
 </callout>
 == ==
 {{tag>member ppaulweber}}
 
-<grid>
-<col lg="6" md="12">
 == About ==
 
-Philipp Paulweber is a PhD student, teaching and research assistent at the University of Vienna,
-holding a Master of Science (MSc, in German Dipl-Ing.) degree in computer engineering from the Vienna University of
-Technology since 2014.
-</col>
-<col lg="6" md="12">
-== Practical Experience ==
+Philipp Paulweber is a PhD student and university assistant (teaching and research, prae-doc) at the University of Vienna (Universität Wien),
+holding a Master of Science (MSc, in German: Dipl-Ing.) degree in computer engineering from the Vienna University of Technology (TU Wien) since 2014.
 
 He was formerly employed at the real-time communication and safety-critical
-software/hardware engineering company Time-Triggered Technology located in Vienna
+software/hardware engineering company Time-Triggered Technology (TTTech) located in Vienna
 and was involved in automotive software system architecture design and development
 applying standards like the ISO 26262 and AUTOSAR.
-</col>
-</grid>
-<grid>
-<col lg="6" md="12">
-== TODO ==
 
-</col>
-<col lg="6" md="12">
-== Publications ==
-{{page>reference:paulweber@YEAR@*&noindent&nofooter&firstseconly&rsort}}
-</col>
-</grid>
-
+In 2012 started his ASM theory interest which was hand in hand with the elaboration of his master thesis (in German: Diplomarbeit) with the title "//[[resource:paulweber2014msc:thesis|An optimizing Compiler for the Abstract State Machine Language CASM]]//". All major results of this master thesis are published at the LCTES'14 conference in a paper with the title "//[[resource:lezuo2014lctes:paper|CASM - Optimized Compilation of Abstract State Machines]]//". Moreover, his thesis was nominated for the "//[[resource:paulweber2015epilog:talk|Distinguished Young Alumni Award]]//" in 2015.

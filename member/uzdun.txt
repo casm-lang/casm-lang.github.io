@@ -1,3 +1,5 @@
+== ==
+<callout>
 <html>
 <div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
 <img class="img-circle" style="height: 80px;" src="/_media/member/uzdun.png">
@@ -8,11 +10,18 @@
 </html>
 <grid>
 <col>[[https://github.com/uzdun|{{icon>github?lg|GitHub Page}}]]</col>
+<col>[[https://twitter.com/uwe_zdun|{{icon>twitter?lg|Twitter Page}}]]</col>
 <col>[[https://cs.univie.ac.at/uwe.zdun|{{icon>university?lg|Employment Page}}]]</col>
 </grid>
-
 == Uwe Zdun ==
+//Scientific contributor to **casm**, 
+professor at University of Vienna,
+loves software architecture.
+//
+</callout>
+== ==
+{{tag>member uzdun}}
 
-//TBD.//
+== About ==
 
-TBD ...
+Uwe Zdun ...

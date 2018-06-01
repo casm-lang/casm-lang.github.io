@@ -1,3 +1,5 @@
+== ==
+<callout>
 <html>
 <div style="float: left; text-align: center; display: inline-block; padding-right: 5px;">
 <img class="img-circle" style="height: 80px;" src="/_media/member/gbarany.png">
@@ -12,9 +14,18 @@
 <col>[[http://www.complang.tuwien.ac.at/gergo|{{icon>globe?lg|Personal Page}}]]</col>
 <col>[[http://gallium.inria.fr|{{icon>university?lg|Employment Page}}]]</col>
 </grid>
-
 == Gergö Barany ==
+//Prototype language designer of **casm**,
+compiler geek, programming language researcher.
+//
+</callout>
+== ==
+{{tag>member gbarany}}
 
-//TBD.//
-
-TBD ...
+== About ==
+Gergö Barany is a postdoctoral researcher at Inria Paris, in the Gallium research team. 
+He works on the CompCert verified compiler and compiler optimizations in general.
+Previously he was a postdoc at CEA LIST, 
+working on information flow analysis in the Frama-C source-code analysis framework.
+He holds a PhD at the Institute of Computer Languages at Vienna University of Technology, 
+where he was a research assistant. 

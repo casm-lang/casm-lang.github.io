@@ -1,0 +1,25 @@
+=== Master Thesis ===
+<callout>
+P. Paulweber. 
+**An optimizing Compiler for the Abstract State Machine Language CASM**. 
+Master thesis, Vienna University of Technology, Vienna, Austria, 2014.
+[[http://katalog.ub.tuwien.ac.at/AC11682972|{{icon>book?lg|Printed Version}}]]
+[[https://casm-lang.org/resource/paulweber2014msc/thesis#bibtex|{{icon>quote-right|BibTex Reference}}]]
+</callout>
+== ==
+{{tag>publication master thesis 2014 ppaulweber}}
+
+== Abstract ==
+
+The Abstract State Machine (ASM) is a well known formal method which is based on an algebraic concept. This thesis describes the Corinthian Abstract State Machine (CASM) language which is an implementation of an ASM-based general purpose programming language. Features of this language are its combination of sequential and parallel execution semantics and a statically strong type system. Furthermore, this thesis outlines an optimizing run-time and code generator which enables an optimized execution of CASM programs. The code generator is a CASM to C source-to-source translator and the run-time is implemented in C as well. Moreover the CASM optimizing compiler (run-time and code generator) includes a novel optimization framework with the specialized CASM Intermediate Representation (IR). The CASM IR enables powerful analysis and transformation passes which are presented in detail. The evaluation of this thesis shows that CASM is currently the best performing ASM implementation available. Benchmark results show that the CASM compiler is 2 to 3 orders of magnitude faster than other ASM implementations. Furthermore, the presented optimization passes eliminate run-time costs which increases the execution speed of CASM generated programs by a factor 2 to 3 even further.
+
+== BibTex ==
+<code bibtex>
+@Comment{refnotes,
+  namespace = "cite"
+}
+@mastersthesis{paulweber2014msc,
+  author    = {Philipp Paulweber},
+  title     = {{A}n optimizing {C}ompiler for the {A}bstract {S}tate {M}achine {L}anguage {CASM}},
+}
+</code>

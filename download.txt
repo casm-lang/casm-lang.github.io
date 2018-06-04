@@ -9,4 +9,9 @@
 June 4, 2018
 
 https://github.com/casm-lang/casm/releases/tag/0.1.0
+
+https://github.com/casm-lang/casm/milestone/1?closed=1)
+
+[[https://github.com/casm-lang/casm/releases/download/0.1.0/casmi|Linux casmi amd64]]
+
 </callout>

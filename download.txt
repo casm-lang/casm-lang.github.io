@@ -5,8 +5,10 @@
 ===== 0.1.0 =====
 {{tag>release}}
 
-<callout title="Release `auxentios`">
+<callout title="Release ''auxentios''">
 June 4, 2018
+
+The release identifier is derived from the Greek word αυξανω (auxano) and means "to increase, to grow".
 
 https://github.com/casm-lang/casm/releases/tag/0.1.0
 

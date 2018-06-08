@@ -15,9 +15,8 @@
 <col>[[https://fhahn.com|{{icon>globe?lg|Personal Page}}]]</col>
 </grid>
 == Florian Hahn ==
-//Developer of **libcasm-fe**, 
-loves compilers, programming languages, 
-and software engineering.
+//One of the first developer of **libcasm-fe**, 
+loves compilers and programming languages.
 //
 </callout>
 == ==

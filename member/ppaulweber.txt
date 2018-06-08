@@ -17,7 +17,7 @@
 </grid>
 == Philipp Paulweber ==
 //Founder and owner of **casm-lang**, 
-project leader of **casm**, 
+pioneer and project leader of **casm**, 
 compiler construction enthusiast 
 //
 </callout>
@@ -26,12 +26,14 @@ compiler construction enthusiast
 
 == About ==
 
-Philipp Paulweber is a PhD student and university assistant (teaching and research, prae-doc) at the University of Vienna (Universität Wien),
+Philipp Paulweber is a PhD student and university assistant (teaching and research, prae-doc) at the University of Vienna (Universität Wien), employed at the faculty of computer science in the research group for software architecture, 
 holding a Master of Science (MSc, in German: Dipl-Ing.) degree in computer engineering from the Vienna University of Technology (TU Wien) since 2014.
 
 He was formerly employed at the real-time communication and safety-critical
 software/hardware engineering company Time-Triggered Technology (TTTech) located in Vienna
-and was involved in automotive software system architecture design and development
-applying standards like the ISO 26262 and AUTOSAR.
+and was involved in automotive software/system architecture specification, design and development
+applying standards like the ISO 26262 and using modeling techniques like AUTOSAR.
 
 In 2012 started his ASM theory interest which was hand in hand with the elaboration of his master thesis (in German: Diplomarbeit) with the title "//[[resource:paulweber2014msc:thesis|An optimizing Compiler for the Abstract State Machine Language CASM]]//". All major results of this master thesis are published at the LCTES'14 conference in a paper with the title "//[[resource:lezuo2014lctes:paper|CASM - Optimized Compilation of Abstract State Machines]]//". Moreover, his thesis was nominated for the "//[[resource:paulweber2015epilog:talk|Distinguished Young Alumni Award]]//" in 2015.
+
+Due to some source code restrictions of the first prototype, he decided to start to design and develop a new CASM implementation at the beginning of 2014.

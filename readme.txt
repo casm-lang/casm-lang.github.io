@@ -6,7 +6,8 @@
 <col lg="6" md="12">
 ===== About =====
 
-You have reached the main website of the Corinthian Abstract State Machine (CASM, pronounced [si:eɪ:es:em:]) project and organization! CASM is pronounced as 
+You have reached the main website of the Corinthian Abstract State Machine 
+(CASM, pronounced [si:eɪ:es:em:]) project and organization!  
 We use this website to publish and describe details about the CASM project, which is hosted on [[https://github.com/casm-lang|GitHub]].
 CASM is still in a very early stage but you already can follow our updates on Twitter which are directly rendered as our [[:#news|News]] section. 
  

@@ -15,9 +15,8 @@
 <col>[[http://www.enet.at/de|{{icon>building?lg|Employment Page}}]]</col>
 </grid>
 == Emmanuel Pescosta ==
-//Maintainer of **libcasm-fe**, 
-maintainer of **KDE Dolphin -- File Manager**,
-code review and software quality expert
+//Maintainer of **libcasm-fe** and 
+maintainer of the **KDE Dolphin** file manager
 //
 </callout>
 == ==

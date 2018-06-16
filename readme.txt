@@ -15,7 +15,7 @@ CASM is still in a very early stage but you already can follow our updates on Tw
 The **casm** project consists of its own ASM [[language]] dialect which represents another concrete ASM language form just like other ASM languages e.g. CoreASM, AsmL, or AsmetaL. Check out our [[language]] and [[syntax]].
 </callout>
 <callout title="Interpreter Application">
-We feature a CASM language interpreter called **casmi**, which performs a AST-based numeric execution and simulates the input specification accordingly to the ASM theory. 
+We feature a CASM language interpreter called **casmi**, which performs a AST-based numeric execution and simulates the input specification accordingly to the ASM theory. Check out the current release in the [[download]] section.
 </callout>
 </col>
 

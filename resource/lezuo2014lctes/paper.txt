@@ -32,7 +32,7 @@ The achieved performance allows our ASM implementation to be used with industry-
 @inproceedings{lezuo2014lctes,
   title        = {{CASM} - {O}ptimized {C}ompilation of {A}bstract {S}tate {M}achines},
   author       = {Lezuo, Roland and Paulweber, Philipp and Krall, Andreas},
-  booktitle    = {SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems, LCTES 2014},
+  booktitle    = {ACM SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems, LCTES 2014},
   pages        = {13--22},
   year         = {2014},
   publisher    = {ACM}

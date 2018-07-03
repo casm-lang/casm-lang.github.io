@@ -1,0 +1,25 @@
+#+options: toc:nil
+#+html: {{tag>release}}
+
+* Download
+
+** 0.1.0
+
+<callout type="primary">
+*** Release ''auxentios''
+June 4, 2018
+
+The release identifier is derived from the Greek word αυξανω (auxano) and means "to increase, to grow".
+</callout>
+
+<callout type="primary" icon="fa fa-tag">
+https://github.com/casm-lang/casm/releases/tag/0.1.0
+</callout>
+
+<callout type="primary" icon="fa fa-bug">
+https://github.com/casm-lang/casm/milestone/1?closed=1
+</callout>
+
+<callout type="primary" icon="fa fa-linux">
+[[https://github.com/casm-lang/casm/releases/download/0.1.0/casmi][CASM Interpreter (=casmi=) Linux 64bit (=x86_64=)]]
+</callout>

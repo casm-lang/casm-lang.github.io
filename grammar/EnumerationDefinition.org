@@ -2,4 +2,4 @@
 
 * EnumerationDefinition
 
-TBD
+An =enumeration= definition allows to declare user-defined enumeration types (domains) in a CASM specification. Every enumeration is identified by its =Identifier= and creates with the same name a namespace in the specification for all of its =Enumerators=.

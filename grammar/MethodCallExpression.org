@@ -2,4 +2,4 @@
 
 * MethodCallExpression
 
-TBD
+The method call expression invokes a method which is known to the =SimpleOrClaspedTerm= type with zero, one, or multiple parameter =Terms= surrounded by parentheses.

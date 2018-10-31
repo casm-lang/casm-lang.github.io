@@ -2,4 +2,4 @@
 
 * Literal
 
-TBD
+The literal grammar rule defines all possible literals in the CASM specification language.

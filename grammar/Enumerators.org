@@ -2,4 +2,4 @@
 
 * Enumerators
 
-TBD
+Consist of one or more =EnumeratorDefinition= which are separated by a comma character.

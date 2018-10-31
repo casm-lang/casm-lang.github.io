@@ -2,4 +2,4 @@
 
 * CallExpression
 
-TBD
+A call expression enables to invoke =function= and =derived= value retrievals.

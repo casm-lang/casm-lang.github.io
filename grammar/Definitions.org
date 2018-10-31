@@ -2,4 +2,4 @@
 
 * Definitions
 
-TBD
+Definitions consist of one or more attributed definition.

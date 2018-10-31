@@ -2,4 +2,4 @@
 
 * VariableBindings
 
-TBD
+The let rule and expression can have one or multiple variable bindings. Those are separated by a comma character.

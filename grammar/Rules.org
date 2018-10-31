@@ -2,4 +2,4 @@
 
 * Rules
 
-TBD
+Consists of one or more =Rule= grammar rules.

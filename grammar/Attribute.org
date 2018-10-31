@@ -2,4 +2,4 @@
 
 * Attribute
 
-TBD
+An attribute can have two manifestations - a basic-based or a expression-based attribute. Every attribute has to be surrounded by a square brackets.

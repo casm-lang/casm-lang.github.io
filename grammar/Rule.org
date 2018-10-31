@@ -2,4 +2,5 @@
 
 * Rule
 
-TBD
+The =Rule= grammar rule defines all possible CASM rules.
+

@@ -2,4 +2,4 @@
 
 * DirectCallExpression
 
-TBD
+In a direct call expressions an =IdentifierPath= can be called with zero, one, or multiple parameter =Terms= supprounded by parentheses.

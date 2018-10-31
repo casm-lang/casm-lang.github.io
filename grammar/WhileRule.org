@@ -2,4 +2,11 @@
 
 * WhileRule
 
-TBD
+The =while= rule is a CASM syntactical sugar for the =iterate= rule.
+
+#+html: <callout type="info" icon="fa fa-code">
+The following snipped defines the semantics of the =while= rule as:
+#+begin_src casm
+// TBA
+#+end_src
+#+html: </callout>

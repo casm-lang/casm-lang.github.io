@@ -2,4 +2,5 @@
 
 * FunctionDefinition
 
-TBD
+A =function= definition enables the creation of global ASM state functions with a defined type relation. Additionally every function initial state can be specified through =MaybeInitially=.
+Furthermore, due to the fact that ASM functions are by default =undef= (undefined) over the whole value domain, the =MaybeDefined= optionally enables the definition of a defined default value.

@@ -2,4 +2,4 @@
 
 * UniversalQuantifierExpression
 
-TBD
+The universal quantifier expression checks =forall= =AttriubtedVariables= which range =in= a given domain =Term= that a =Term= is satisfied (=holds=).

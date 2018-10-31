@@ -2,4 +2,4 @@
 
 * TypedVariables
 
-TBD
+Multiple typed variables are separated by a comma character. 

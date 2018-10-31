@@ -2,4 +2,4 @@
 
 * Definition
 
-TBD
+The =Definition= grammar rule defines all possible CASM definition sections. 

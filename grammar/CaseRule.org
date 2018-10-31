@@ -2,4 +2,4 @@
 
 * CaseRule
 
-TBD
+A =case= rule allows to define multiple cases through =CaseLabels= which are evaluated if the given =Term= matches the specified =CaseLabel=.

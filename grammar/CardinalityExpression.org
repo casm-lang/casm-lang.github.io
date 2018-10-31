@@ -2,4 +2,4 @@
 
 * CardinalityExpression
 
-TBD
+The cardinality expression enables to retrieve the number of elements of a given set.

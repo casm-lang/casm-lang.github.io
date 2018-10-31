@@ -2,4 +2,4 @@
 
 * TypedVariable
 
-TBD
+A typed variable consists of an =Identifier= and an associated =Type= which are separated by a colon character.

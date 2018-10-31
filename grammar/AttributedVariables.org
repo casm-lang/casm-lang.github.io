@@ -2,4 +2,4 @@
 
 * AttributedVariables
 
-TBD
+Certain expression statements like `ForallExpression` or `ChooseExpression` require one or multiple attributed variables which shall be separated by a comma character. 

@@ -2,4 +2,5 @@
 
 * ForallRule
 
-TBD
+A =forall= rule defines =AttriubtedVariables= which range =in= a given domain =Term= to evaluate (=do=) a specified =Rule= in parallel.
+Additionally a filter condition can be specified by =with=.

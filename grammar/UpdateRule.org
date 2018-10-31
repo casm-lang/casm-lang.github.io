@@ -2,4 +2,4 @@
 
 * UpdateRule
 
-TBD
+The update rule specifies the producing of changes to the ASM global state by assigning a =Term= to a function symbol.

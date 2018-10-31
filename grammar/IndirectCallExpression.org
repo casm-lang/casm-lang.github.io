@@ -2,4 +2,4 @@
 
 * IndirectCallExpression
 
-TBD
+An indirect call expression can invoke =function= or =derived= return value retrieval over an reference value.

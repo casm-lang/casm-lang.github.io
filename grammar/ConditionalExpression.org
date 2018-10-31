@@ -2,4 +2,4 @@
 
 * ConditionalExpression
 
-TBD
+The conditional rule provides a branching facility to evaluate a certain sub-expression =Term= if the guarding =Term= is true. Furthermore an =else= =Term= is specified to be evaluated if the condition is not fulfilled. The resulting types of both paths shall be of the same type.

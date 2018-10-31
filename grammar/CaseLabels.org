@@ -2,4 +2,4 @@
 
 * CaseLabels
 
-TBD
+Consist of one or more =CaseLabel= grammar rules.

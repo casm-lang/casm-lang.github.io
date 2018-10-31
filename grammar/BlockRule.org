@@ -2,4 +2,4 @@
 
 * BlockRule
 
-TBD
+The block rule specifies that given =Rules= shall be evaluated with a parallel execution semantics.

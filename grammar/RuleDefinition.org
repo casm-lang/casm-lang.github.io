@@ -2,4 +2,9 @@
 
 * RuleDefinition
 
-TBD
+A =rule= definition defines a named rule which is identified by its =Identifier= name and an assigned =Rule= to it. Every rule definition can have zero, one, or multiple typed =Parameters= and an optionally return =Type=.
+
+# TODO: FIXME: @ppaulweber
+#+html: <callout type="warning" icon="true">
+The return =Type= of a rule will be supported at version =0.4.0=.
+#+html: </callout>

@@ -2,4 +2,4 @@
 
 * SequenceRule
 
-TBD
+The sequence rule specifies that given =Rules= shall be evaluated with a sequential execution semantics.

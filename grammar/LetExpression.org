@@ -2,4 +2,4 @@
 
 * LetExpression
 
-TBD
+A =let= expression defines a new scope where the defined =VariableBindings= are used for the evaluation in the sub-expression =Term=.

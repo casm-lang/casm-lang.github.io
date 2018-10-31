@@ -2,4 +2,4 @@
 
 * ChooseExpression
 
-TBD
+A =choose= expression allows to specify a selection of =AttributedVariables= to be chosen in a given =Term= one value per variable to evaluate a given =Term=.

@@ -2,4 +2,4 @@
 
 * OperatorExpression
 
-TBD
+The operator expression grammar rule defines all possible binary operator expressions ranging from arithmetic, comparing, and to logical ones.

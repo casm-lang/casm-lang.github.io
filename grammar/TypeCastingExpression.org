@@ -2,4 +2,4 @@
 
 * TypeCastingExpression
 
-TBD
+The type casting expression enables to specify type conversions of an =SimpleOrClaspedTerm= to (=as=) a given =Type=.

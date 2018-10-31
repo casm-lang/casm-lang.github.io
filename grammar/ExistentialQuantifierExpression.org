@@ -2,4 +2,4 @@
 
 * ExistentialQuantifierExpression
 
-TBD
+The existential quantifier expression checks that there =exists= for given =AttributedVariables= which range =in= a given domain =Term= that a certain condition =Term= is satisfied (=with=).

@@ -2,4 +2,4 @@
 
 * DecimalLiteral
 
-TBD
+The decimal literal defines all possible defined values of the =Decimal= type.

@@ -2,4 +2,4 @@
 
 * LiteralCallExpression
 
-TBD
+A literal call expression can access of a certain index identified by its =IntegerLiteral= of the given =SimpleOrClaspedTerm= type.

@@ -2,4 +2,4 @@
 
 * SkipRule
 
-TBD
+The =skip= rule defines that no operation or rule shall be performed at this position in a CASM specification.

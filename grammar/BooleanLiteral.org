@@ -2,4 +2,4 @@
 
 * BooleanLiteral
 
-TBD
+The Boolean literal represents all defined values of the =Boolean= type.

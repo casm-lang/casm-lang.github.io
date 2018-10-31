@@ -2,4 +2,4 @@
 
 * CallRule
 
-TBD
+A call rule allows to invoke other named rules (=RuleDefinition=).

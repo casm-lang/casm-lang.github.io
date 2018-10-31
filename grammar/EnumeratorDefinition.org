@@ -2,4 +2,4 @@
 
 * EnumeratorDefinition
 
-TBD
+An enumerator definition are =Identifier= with optionally =Attributes= assigned to them.

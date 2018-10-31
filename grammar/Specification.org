@@ -1,6 +1,5 @@
-
 #+options: toc:nil
 
 * Specification
 
-TBD
+Every CASM specification consists of a header and definitions part.

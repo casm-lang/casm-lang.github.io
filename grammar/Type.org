@@ -2,4 +2,4 @@
 
 * Type
 
-TBD
+The =Type= grammar rule defines all possible CASM type constructs.

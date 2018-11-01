@@ -2,11 +2,15 @@
 
 * WhileRule
 
-The =while= rule is a CASM syntactical sugar for the =iterate= rule.
+The =while= rule is a CASM syntactical sugar for an =iterate= rule , conditional rule, and =skip= rule.
 
 #+html: <callout type="info" icon="fa fa-code">
 The following snipped defines the semantics of the =while= rule as:
 #+begin_src casm
-// TBA
+iterate
+    if not <Term> then
+        skip
+    else
+        <Rule>
 #+end_src
 #+html: </callout>

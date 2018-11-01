@@ -2,4 +2,4 @@
 
 * ReferenceLiteral
 
-TBD
+The reference literal defines a defined reference value of a given symbol identified by =IdentifierPath=. The at (=@=) character denotes that a reference literal shall be constructed of the given symbol name.

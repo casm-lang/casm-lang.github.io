@@ -2,4 +2,4 @@
 
 * Identifier
 
-TBD
+Represents a symbol (=function=, =derived= etc.) in a CASM specification.

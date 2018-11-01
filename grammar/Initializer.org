@@ -2,4 +2,4 @@
 
 * Initializer
 
-TBD
+An initializer is used to define function value initialization over a n-ary function location.  

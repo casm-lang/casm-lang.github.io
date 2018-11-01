@@ -2,4 +2,4 @@
 
 * Assignments
 
-TBD
+Consists of one or more =Assignment= grammar rules.

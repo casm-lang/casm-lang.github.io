@@ -2,4 +2,4 @@
 
 * StringLiteral
 
-TBD
+The string literal defines all possible defined values of the =String= type.

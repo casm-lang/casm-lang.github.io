@@ -2,4 +2,4 @@
 
 * Initializers
 
-TBD
+Initializers are constructed through one or more =Initializer= which are separated by an comma character.

@@ -2,4 +2,4 @@
 
 * BasicType
 
-TBD
+A basic type symbol name is defined and identified by its =IdentifierPath=.

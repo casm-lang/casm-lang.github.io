@@ -2,4 +2,4 @@
 
 * RecordType
 
-TBD
+A record type can be defined by two or more inner =TypedVariable= separated by a comma character and surrounded with parentheses.

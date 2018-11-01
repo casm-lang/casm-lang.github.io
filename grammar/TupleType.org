@@ -2,4 +2,4 @@
 
 * TupleType
 
-TBD
+A tuple type can be defined by two or more inner =Type= separated by a comma character and surrounded with parentheses.

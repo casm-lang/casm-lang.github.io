@@ -29,20 +29,23 @@ Inside the =HelloWorld= rule a [[./syntax#BlockRule][block rule]] creates a para
 Last but not least the actual statement to print out the =Hello world!= string defined by a [[./syntax#CallRule][call rule]] to a built-in function named =println=.
 
 CASM does not require any newlines, tabulators, or statement separators like in other specification or programming languages.
-As example the following /Hello World/ application is equivalent to the one given above.
 
-#+html: <callout type="info" icon="fa fa-code">
-The inline version of the /Hello World/ application specified in CASM:
-#+begin_src casm -n
-CASM init HelloWorld rule HelloWorld println( "Hello world!" )
-#+end_src
-#+html: </callout>
 
 TBA
 
 ** Functions
 
 TBA
+
+# #+html: <callout type="info" icon="fa fa-code">
+# The following example defines a binary function named =phoneBook= with a 
+# given type relation $x : String * String \rightarrow String$ to store 
+# telephone number strings identified by a last and first name string:
+# #+begin_src casm
+# function phoneBook : String * String -> String
+# #+end_src
+# #+html: </callout>
+
 
 ** Rules
 

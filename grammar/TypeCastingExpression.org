@@ -2,4 +2,9 @@
 
 * TypeCastingExpression
 
-The type casting expression enables to specify type conversions of an =SimpleOrClaspedTerm= to (=as=) a given =Type=.
+The type casting expression enables to specify type conversions
+of an =SimpleOrClaspedTerm= to (=as=) a given =Type=.
+
+#+html: <callout type="info" icon="true">
+This expression is introduced in version =0.1.0=. 
+#+html: </callout>

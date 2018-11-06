@@ -10,3 +10,7 @@ The following example defines a type alias for =Integer= named =MyType=:
 using MyType = Integer
 #+end_src
 #+html: </callout>
+
+#+html: <callout type="info" icon="true">
+This definition is introduced in version =0.1.0=. 
+#+html: </callout>

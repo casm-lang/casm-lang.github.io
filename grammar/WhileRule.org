@@ -14,3 +14,7 @@ iterate
         <Rule>
 #+end_src
 #+html: </callout>
+
+#+html: <callout type="info" icon="true">
+This rule is introduced in version =0.1.0=. 
+#+html: </callout>

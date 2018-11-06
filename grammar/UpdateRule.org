@@ -2,4 +2,9 @@
 
 * UpdateRule
 
-The update rule specifies the producing of changes to the ASM global state by assigning a =Term= to a function symbol.
+The update rule specifies the producing of changes to the 
+ASM global state by assigning a =Term= to a function symbol.
+
+#+html: <callout type="info" icon="true">
+This rule is introduced in version =0.1.0=. 
+#+html: </callout>

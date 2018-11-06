@@ -2,4 +2,9 @@
 
 * SequenceRule
 
-The sequence rule specifies that given =Rules= shall be evaluated with a sequential execution semantics.
+The sequence rule specifies that given =Rules= shall be evaluated 
+with a sequential execution semantics.
+
+#+html: <callout type="info" icon="true">
+This rule is introduced in version =0.1.0=. 
+#+html: </callout>

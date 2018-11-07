@@ -2,4 +2,45 @@
 
 * Download
 
+
+[[https://github.com/casm-lang/casm/releases/latest][{{icon>linux?5x|Download Latest Linux-based CASM Release}}]]
+#+html: <html><span style="font-size: 200%; margin-left: 15px;">
+Linux
+#+html: </span></html>
+
+|------------------+--------------------+-----------------+-------------------+--------------------+-------------------|
+| {{icon>archive}} | {{icon>microchip}} | {{icon>memory}} | {{icon>download}} | {{icon>signature}} | {{icon>terminal}} |
+|------------------+--------------------+-----------------+-------------------+--------------------+-------------------|
+| Binary           | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.1.0/casm-linux-x86_64.tar.gz][tar.gz]]            | [[https://github.com/casm-lang/casm/releases/download/0.1.0/casm-linux-x86_64.tar.gz.sha2][sha2]]               | -                 |
+| AppImage         | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.1.0/casm-linux-x86_64.AppImage][AppImage]]          | [[https://github.com/casm-lang/casm/releases/download/0.1.0/casm-linux-x86_64.tar.gz.sha2][sha2]]               | -                 |
+| ArchLinux (AUR)  | Intel              | 64-bit          | [[https://aur.archlinux.org/packages/casm][AUR]]               | [[https://github.com/casm-lang/casm/releases/download/0.1.0/casm-linux-x86_64.tar.gz.sha2][sha2]]               | =$ yay -S casm=   |
+
+# [[https://asdf.com][{{icon>apple?5x}}]] 
+
+# [[https://asdf.com][{{icon>windows?5x}}]] 
+
+
+[[https://github.com/casm-lang/casm/releases/latest][{{icon>docker?5x|Download Latest Docker-based CASM Release}}]]
+#+html: <html><span style="font-size: 200%; margin-left: 15px;">
+Docker
+#+html: </span></html>
+
+|------------------+--------------------+-----------------+-------------------+--------------------------------------|
+| {{icon>archive}} | {{icon>microchip}} | {{icon>memory}} | {{icon>download}} | {{icon>terminal}}                    |
+|------------------+--------------------+-----------------+-------------------+--------------------------------------|
+| Linux-based      | Intel              | 64-bit          | [[https://hub.docker.com/r/casmlang/casm][casmlang/casm]]     | =$ docker pull casm-lang/casm:0.1.0= |
+
+
+[[https://github.com/casm-lang/casm][{{icon>github?5x|Download Latest Source Code of CASM}}]]
+#+html: <html><span style="font-size: 200%; margin-left: 15px;">
+Source Code
+#+html: </span></html>
+
+|------------------+-----------------+------------------------------------------------------------|
+| {{icon>archive}} | {{icon>server}} | {{icon>terminal}}                                          |
+|------------------+-----------------+------------------------------------------------------------|
+| git              | [[https://github.com/casm-lang/casm][GitHub]]          | =$ git clone -b '0.1.0' https://github.com/casm-lang/casm= |
+
+
+# list all releases 
 {{tagtopic>release&noindent&nofooter&rsort}}

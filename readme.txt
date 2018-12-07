@@ -1,5 +1,10 @@
+{{tag>news feature member publication}}
 ~~Title: Website ~~
 ~~NOTOC~~
+
+<slide>
+{{:site:background.png?nolink|}}
+</slide>
 
 <grid>
 

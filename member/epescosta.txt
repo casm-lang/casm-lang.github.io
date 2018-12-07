@@ -16,7 +16,7 @@
 </grid>
 == Emmanuel Pescosta ==
 //Maintainer of **libcasm-fe** and 
-maintainer of the **KDE Dolphin** file manager
+**KDE** developer (former maintainer of **Dolphin**)
 //
 </callout>
 == ==

@@ -22,6 +22,9 @@ The **casm** project consists of its own ASM [[language]] dialect which represen
 <callout title="Interpreter Application">
 We feature a CASM language interpreter called **casmi**, which performs a AST-based numeric execution and simulates the input specification accordingly to the ASM theory. Check out the current release in the [[download]] section.
 </callout>
+<callout title="Language Server Support">
+In our CASM language server daemon application called **casmd**, we implement the Language Server Protocol (LSP) to provide CASM language specific support to editor environments (LSP clients) like **monaco** or **vscode**.
+</callout>
 </col>
 
 <col lg="6" md="12">
@@ -47,28 +50,31 @@ href="https://twitter.com/casm_lang">Tweets by @casm_lang
 
 <col lg="12" md="12">
 ===== Members =====
+Find out more about our CASM [[members]]:
 <grid>
-<col xs="6" md="3">{{page>member:ppaulweber&noindent&nofooter&firstseconly}}</col>
-<col xs="6" md="3">{{page>member:epescosta&noindent&nofooter&firstseconly}}</col>
-<col xs="6" md="3">{{page>member:fhahn&noindent&nofooter&firstseconly}}</col>
-<col xs="6" md="3">{{page>member:rlezuo&noindent&nofooter&firstseconly}}</col>
+<col xs="12" md="3">{{page>member:ppaulweber&noindent&nofooter&firstseconly}}</col>
+<col xs="12" md="3">{{page>member:epescosta&noindent&nofooter&firstseconly}}</col>
+<col xs="12" md="3">{{page>member:fhahn&noindent&nofooter&firstseconly}}</col>
+<col xs="12" md="3">{{page>member:rlezuo&noindent&nofooter&firstseconly}}</col>
 </grid>
 <grid>
-<col xs="6" md="3">{{page>member:uzdun&noindent&nofooter&firstseconly}}</col>
-<col xs="6" md="3">{{page>member:akrall&noindent&nofooter&firstseconly}}</col>
-<col xs="6" md="3">{{page>member:dinfuehr&noindent&nofooter&firstseconly}}</col>
-<col xs="6" md="3">{{page>member:gbarany&noindent&nofooter&firstseconly}}</col>
+<col xs="12" md="3">{{page>member:uzdun&noindent&nofooter&firstseconly}}</col>
+<col xs="12" md="3">{{page>member:gsimhandl&noindent&nofooter&firstseconly}}</col>
+<col xs="12" md="3">{{page>member:akrall&noindent&nofooter&firstseconly}}</col>
+<col xs="12" md="3">{{page>member:gbarany&noindent&nofooter&firstseconly}}</col>
 </grid>
 </col>
 
 <grid>
 <col lg="6" md="12">
 ===== Publications =====
+Check out the latest CASM [[publications]]:
 {{tagtopic>paper&noindent&noheader&nofooter&firstseconly&rsort}}
 </col>
 
 <col lg="6" md="12">
-===== Talks, Events, and Workshops =====
+===== Presenations =====
+Check out the latest CASM conference, workshop, or event [[publications#Conference_Workshop_or_Event_Presentations|presentations]]:
 {{tagtopic>talk&noindent&noheader&nofooter&firstseconly&rsort}}
 </col>
 </grid>

@@ -1,7 +1,7 @@
 <nav type="pills">
-  * [[:language|Language]]
   * [[:download|Download]]
-  * [[:readme|News]]
+  * [[:language|Language]]
+  * [[:members|Members]]
+  * [[:publications|Publications]]
   * [[:site:notice|Site Notice]]
 </nav>
-

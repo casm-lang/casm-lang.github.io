@@ -1,0 +1,36 @@
+#+options: toc:nil
+#+macro: member_begin    @@html:<callout><html><div style="float: left; text-align: center; display: inline-block; padding-right: 5px;"><img class="img-circle" style="height: 80px;" src="/_media/member/@@{{{member}}}@@html:/profile.png"><br><a href="@@{{{membership_link}}@@html:" title="@@{{{membership_name}}}@@html:"><img class="" style="height: 40px;" src="/_media/member/ship/@@{{{membership_icon}}}@@html:.png"></a></div></html><grid>@@
+#+macro: member_name     @@html:</grid>@@
+#+macro: member_end      @@html:</callout>@@
+#+macro: member_link     @@html:<col>[[@@$1@@html:|{{icon>@@$2@@html:|@@$3@@html:}}]]</col>@@
+#+macro: member_github   {{{member_link(https://github.com/$1,github?lg,GitHub Page)}}}
+#+macro: member_twitter  {{{member_link(https://twitter.com/$1,twitter?lg,Twitter Page)}}}
+#+macro: member_linkedin {{{member_link(https://linkedin.com/in/$1,linkedin?lg,LinkedIn Page)}}}
+#+macro: member_personal {{{member_link($1,globe?lg,Personal Page)}}}
+#+macro: member_science  {{{member_link($1,university?lg,Scientific Employment Page)}}}
+#+macro: member_company  {{{member_link($1,building?lg,Company Employment Page)}}}
+
+#+macro: member          gsimhandl
+#+macro: membership_icon univie
+#+macro: membership_name University of Vienna
+#+macro: membership_link https://cs.univie.ac.at
+
+****** 
+
+{{{member_begin}}}
+{{{member_github(gsimha)}}}
+{{{member_twitter({{{member}}})}}}
+{{{member_linkedin(georgsimhandl)}}}
+{{{member_science(https://cs.univie.ac.at/georg.simhandl)}}}
+{{{member_company(http://www.adaptivia.com/)}}}
+{{{member_name}}}
+
+****** Georg Simhandl
+
+/Scientific contributor to *casm*, post-doc researcher at University of Vienna, loves eye tracking studies./
+
+{{{member_end}}}
+
+** About
+
+TBA

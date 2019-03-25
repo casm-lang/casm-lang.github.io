@@ -1,9 +1,10 @@
 === ABZ'18 Conference Paper ===
 <callout>
-P. Paulweber, E. Pescosta, and U. Zdun. **CASM-IR: Uniform ASM-Based Intermediate Representation for Model Specification, Execution, and Transformation**. In //Abstract State Machines, Alloy, B, TLA, VDM, and Z - 6th International Conference//, ABZ 2018, Lecture Notes in Computer Science 10817, pages 39-54. Springer, 2018.
-[[https://casm-lang.org/_media/resource/paulweber2018abz/paper.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
+P. Paulweber, E. Pescosta, and U. Zdun. **CASM-IR: Uniform ASM-Based Intermediate Representation for Model Specification, Execution, and Transformation**. In //6th International Conference on Abstract State Machines, Alloy, B, TLA, VDM, and Z//, ABZ 2018, 5-8 June 2018, Southampton, UK, 2018, Springer, Lecture Notes in Computer Science 10817, pages 39-54.
+[[https://casm-lang.org/publication/paulweber2018abz#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://eprints.cs.univie.ac.at/5502/1/paulweber2018abz.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
 [[https://doi.org/10.1007/978-3-319-91271-4_4|{{icon>book?lg|Printed Version}}]]
-[[https://casm-lang.org/resource/paulweber2018abz/paper#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://swa.cs.univie.ac.at/research/publications/publication/5502/|{{icon>database?lg|Database Resource}}]]
 </callout>
 == ==
 {{tag>publication conference paper abz 2018 ppaulweber epescosta uzdun}}
@@ -30,22 +31,20 @@ Corinthian Abstract State Machine (CASM) modeling language.
 </col>
 <col lg="8" md="12">
 == Document ==
-{{pdfjs 562px>:resource:paulweber2018abz:paper.pdf?page-width}}
+{{pdfjs 562px>:publication:paulweber2018abz.pdf?page-width}}
 </col>
 </grid>
 
 == BibTex ==
 <code bibtex>
-@Comment{refnotes,
-  namespace    = "cite"
-}
+@Comment{ refnotes, namespace = "cite" }
 @inproceedings{paulweber2018abz,
-  title        = {{CASM-IR}: {U}niform {ASM}-{B}ased {I}ntermediate {R}epresentation for {M}odel {S}pecification, {E}xecution, and {T}ransformation},
-  author       = {Paulweber, Philipp and Pescosta, Emmanuel and Zdun, Uwe},
-  booktitle    = {Abstract State Machines, Alloy, B, TLA, VDM, and Z - 6th International Conference, ABZ 2018},
-  series       = {Lecture Notes in Computer Science 10817},
-  pages        = {39--54},
-  year         = {2018},
-  publisher    = {Springer},
+  title     = {{CASM-IR}: {U}niform {ASM}-{B}ased {I}ntermediate {R}epresentation for {M}odel {S}pecification, {E}xecution, and {T}ransformation},
+  author    = {Paulweber, Philipp and Pescosta, Emmanuel and Zdun, Uwe},
+  booktitle = {6th International Conference on Abstract State Machines, Alloy, B, TLA, VDM, and Z, ABZ 2018},
+  series    = {Lecture Notes in Computer Science 10817},
+  pages     = {39--54},
+  year      = {2018},
+  publisher = {Springer},
 }
 </code>

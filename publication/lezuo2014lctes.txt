@@ -1,0 +1,42 @@
+=== LCTES'14 Conference Paper ===
+<callout>
+R. Lezuo, P. Paulweber, and A. Krall. **CASM - Optimized Compilation of Abstract State Machines**. In //ACM SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems//, LCTES 2014, 12-13th June, 2014, Edinburgh, UK, ACM SIGPLAN Notices, Vol. 49(5), pages 13-22.
+[[https://casm-lang.org/publication/lezuo2014lctes#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://www.complang.tuwien.ac.at/andi/papers/lctes_14.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
+[[https://doi.org/10.1145/2666357.2597813|{{icon>book?lg|Printed Version}}]]
+[[https://swa.cs.univie.ac.at/research/publications/publication/4445/|{{icon>database?lg|Database Resource}}]]
+</callout>
+== ==
+{{tag>publication conference paper lctes 2014 rlezuo ppaulweber akrall}}
+
+<grid>
+<col lg="4" md="12">
+== Abstract ==
+In this paper we present CASM, a language based on Abstract State Machines (ASM), and its optimizing compiler.
+ASM is a well-defined (formal) method based on algebraic concepts.
+A distinct feature of ASM is its combination of parallel and sequential execution semantics.
+This makes it an excellent choice to formally specify and verify micro-architectures.
+We present a compilation scheme and an implementation of a runtime system supporting efficient execution of ASM.
+After introducing novel analysis techniques we present optimizations allowing us to eliminate many costly operations.
+Benchmark results show that our baseline compiler is 2-3 magnitudes faster than other ASM implementations.
+The optimizations further increase the performance of the compiled programs up to 264%.
+The achieved performance allows our ASM implementation to be used with industry-size applications.
+</col>
+<col lg="8" md="12">
+== Document ==
+{{pdfjs 562px>:publication:lezuo2014lctes.pdf?page-width}}
+</col>
+</grid>
+
+== BibTex ==
+<code bibtex>
+@Comment{ refnotes, namespace = "cite" }
+@inproceedings{lezuo2014lctes,
+  title     = {{CASM} - {O}ptimized {C}ompilation of {A}bstract {S}tate {M}achines},
+  author    = {Lezuo, Roland and Paulweber, Philipp and Krall, Andreas},
+  booktitle = {ACM SIGPLAN/SIGBED Conference on Languages, Compilers and Tools for Embedded Systems, LCTES 2014},
+  pages     = {13--22},
+  year      = {2014},
+  publisher = {ACM}
+}
+</code>

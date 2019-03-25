@@ -1,0 +1,29 @@
+=== ABZ'16 Conference Talk ===
+<callout>
+P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and Retarget CASM Specifications**. Conference Talk at the //5th International Conference on Abstract State Machines, Alloy, B, TLA, VDM, and Z//, ABZ 2016, Linz, Austria, 27th May, 2016.
+[[https://casm-lang.org/presentation/paulweber2016abz#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://casm-lang.org/_media/presentation/paulweber2016abz.pdf|{{icon>file-pdf-o?lg|Talk Slides}}]]
+</callout>
+== ==
+{{tag>presentation talk abz 2016 ppaulweber uzdun}}
+
+<grid>
+<col lg="8" md="12">
+== Document ==
+{{pdfjs 562px>:presentation:paulweber2016abz.pdf?page-width}}
+</col>
+<col lg="4" md="12">
+== BibTex ==
+<code bibtex>
+@Comment{ refnotes, namespace = "cite" }
+@misc{paulweber2016abz-talk,
+  title        = {{A} {M}odel-{B}ased {T}ransformation {A}pproach to {R}euse and {R}etarget {CASM} {S}pecifications},
+  author       = {Paulweber, Philipp and Zdun, Uwe},
+  howpublished = {ABZ'16 Talk Slides},
+  month        = {May},
+  year         = {2016},
+  note         = {\url{https://casm-lang.org/presentation/paulweber2016abz.pdf}}
+}
+</code>
+</col>
+</grid>

@@ -3,8 +3,8 @@
 P. Paulweber. 
 **An optimizing Compiler for the Abstract State Machine Language CASM**. 
 Master thesis, Vienna University of Technology, Vienna, Austria, 2014.
+[[https://casm-lang.org/publication/paulweber2014msc#bibtex|{{icon>quote-right|BibTex Reference}}]]
 [[http://katalog.ub.tuwien.ac.at/AC11682972|{{icon>book?lg|Printed Version}}]]
-[[https://casm-lang.org/resource/paulweber2014msc/thesis#bibtex|{{icon>quote-right|BibTex Reference}}]]
 </callout>
 == ==
 {{tag>publication master thesis 2014 ppaulweber}}

@@ -1,3 +1,5 @@
 /temp
 /user/*/
 /site/cache
+*.pdf
+*~

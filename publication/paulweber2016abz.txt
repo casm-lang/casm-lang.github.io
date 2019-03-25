@@ -1,0 +1,35 @@
+=== ABZ'16 Conference Paper ===
+<callout>
+P. Paulweber and U. Zdun. **A Model-Based Transformation Approach to Reuse and Retarget CASM Specifications**. In //5th International Conference on Abstract State Machines, Alloy, B, TLA, VDM, and Z//, ABZ 2016, Linz, Austria, 23-27th May, 2016, Springer, Lecture Notes in Computer Science 9675, pages 250-255.
+[[https://casm-lang.org/publication/paulweber2016abz#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://eprints.cs.univie.ac.at/4640/1/paulweber2016abz.pdf|{{icon>file-pdf-o?lg|Conference Version}}]]
+[[https://dx.doi.org/10.1007/978-3-319-33600-8_17|{{icon>book?lg|Printed Version}}]]
+[[https://swa.cs.univie.ac.at/research/publications/publication/4640/|{{icon>database?lg|Database Resource}}]]
+</callout>
+== ==
+{{tag>publication conference paper abz 2016 ppaulweber uzdun}}
+
+<grid>
+<col lg="4" md="12">
+== Abstract ==
+The Abstract State Machine (ASM) theory is a way to specify algorithms, applications and systems in a formal model. Recent ASM languages and tools address either the translation of ASM specifications to a specific target programming language or aim at the execution in a specific environment. In this work-in-progress paper we outline a model-based transformation approach supporting (1) the specification of applications or systems using the Corinthian Abstract State Machine (CASM) modeling language and (2) retargeting those applications to different programming language and hardware target domains. An intermediate model is introduced, which not only captures software-based implementations, but also the generation of hardware-related code in the same model. This approach offers a new formal modeling perspective onto modular, reusable and retargetable software and hardware designs for the development of embedded systems. We provide a short overview of our CASM compiler design as well as the retargetable model-based approach to generate code for different target domains.
+</col>
+<col lg="8" md="12">
+== Document ==
+{{pdfjs 562px>:publication:paulweber2016abz.pdf?page-width}}
+</col>
+</grid>
+
+== BibTex ==
+<code bibtex>
+@Comment{ refnotes, namespace = "cite" }
+@inproceedings{paulweber2016abz,
+  title     = {{A} {M}odel-{B}ased {T}ransformation {A}pproach to {R}euse and {R}etarget {CASM} {S}pecifications},
+  author    = {Paulweber, Philipp and Zdun, Uwe},
+  booktitle = {5th International Conference on Abstract State Machines, Alloy, B, TLA, VDM, and Z, ABZ 2016},
+  series    = {Lecture Notes in Computer Science 9675},
+  pages     = {250--255},
+  year      = {2016},
+  publisher = {Springer},
+}
+</code>

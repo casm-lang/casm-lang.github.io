@@ -1,0 +1,16 @@
+#+options: toc:nil
+#+html: {{tag>language syntax}}
+
+* Publications
+
+** Conference Papers
+
+#+html: {{tagtopic>conference&noindent&noheader&nofooter&firstseconly&rsort}}
+
+** Workshop Papers
+
+#+html: {{tagtopic>workshop&noindent&noheader&nofooter&firstseconly&rsort}}
+
+** Conference, Workshop, or Event Presentations
+
+#+html: {{tagtopic>talk&noindent&noheader&nofooter&firstseconly&rsort}}

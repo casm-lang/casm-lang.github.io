@@ -1,0 +1,28 @@
+=== ABZ'18 Conference Talk ===
+<callout>
+P. Paulweber, E. Pescosta, and U. Zdun. **CASM-IR: Uniform ASM-Based Intermediate Representation for Model Specification, Execution, and Transformation**. Conference Talk at the //6th International Conference on Abstract State Machines, Alloy, B, TLA, VDM, and Z//, ABZ 2018, 5-8 June 2018, Southampton, UK, 2018.
+[[https://casm-lang.org/presentation/paulweber2018abz#bibtex|{{icon>quote-right|BibTex Reference}}]]
+</callout>
+== ==
+{{tag>presentation conference talk abz 2018 ppaulweber epescosta uzdun}}
+
+<grid>
+<col lg="8" md="12">
+== Document ==
+{{pdfjs 562px>:presentation:paulweber2018abz.pdf?page-width}}
+</col>
+<col lg="4" md="12">
+== BibTex ==
+<code bibtex>
+@Comment{ refnotes, namespace = "cite" }
+@misc{paulweber2018abz-talk,
+  title     = {{CASM-IR}: {U}niform {ASM}-{B}ased {I}ntermediate {R}epresentation for {M}odel {S}pecification, {E}xecution, and {T}ransformation},
+  author    = {Paulweber, Philipp and Pescosta, Emmanuel and Zdun, Uwe},
+  howpublished = {ABZ'18 Talk Slides},
+  month        = {June},
+  year         = {2018},
+  note         = {\url{https://casm-lang.org/presentation/paulweber2018abz.pdf}}
+}
+</code>
+</col>
+</grid>

@@ -1,0 +1,40 @@
+=== ATPS'13 Workshop Paper ===
+<callout>
+R. Lezuo, G. Barany, and A. Krall. **CASM: Implementing an Abstract State Machine based Programming Language**. In //Software Engineering 2013 - Workshopband//, 6. Arbeitstagung Programmiersprachen, ATPS 2013, 26th February - 1st March 2013, Aachen, Germany, GI Edition - Lecture Notes in Informatics, Vol. 215, pages 75-90.
+[[https://casm-lang.org/publication/lezuo2013atps#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://publik.tuwien.ac.at/files/PubDat_220246.pdf|{{icon>file-pdf-o?lg|Workshop Version}}]]
+[[https://dl.gi.de/bitstream/handle/20.500.12116/17416/75.pdf?sequence=1&isAllowed=y|{{icon>book?lg|Printed Version}}]]
+[[https://dl.gi.de/handle/20.500.12116/17416|{{icon>database?lg|Database Resource}}]]
+</callout>
+== ==
+{{tag>publication workshop paper atps 2013 rlezuo gbarany akrall}}
+
+<grid>
+<col lg="4" md="12">
+== Abstract ==
+In this paper we present CASM, a general purpose programming language based on abstract state machines (ASMs). 
+We describe the implementation of an interpreter and a compiler for the language. 
+The demand for efficient execution forced us to modify the definition of ASM and we discuss the impact of those changes. 
+A novel feature for ASM based languages is symbolic execution, which we briefly describe.
+CASM is used for instruction set simulator generation and for semantic description in a compiler verification project. 
+We report on the experience of using the language in those two projects. 
+Finally we position ASM based programming languages as an elegant combination of imperative and functional programming paradigms
+which may liberate us from the von Neumann style as demanded by John Backus.
+</col>
+<col lg="8" md="12">
+== Document ==
+{{pdfjs 562px>:publication:lezuo2013atps.pdf?page-width}}
+</col>
+</grid>
+
+== BibTex ==
+<code bibtex>
+@Comment{ refnotes, namespace = "cite" }
+@inproceedings{lezuo2013atps,
+  title     = {{CASM}: {I}mplementing an {A}bstract {S}tate {M}achine based {P}rogramming {L}anguage},
+  author    = {Lezuo, Roland and Barany, Gerg{\"o} and Krall, Andreas},
+  booktitle = {Software Engineering Conference (Workshops), Arbeitstagung Programmiersprachen, ATPS 2013},
+  pages     = {75--90},
+  year      = {2013}
+}
+</code>

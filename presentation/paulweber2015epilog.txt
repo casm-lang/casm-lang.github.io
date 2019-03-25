@@ -1,17 +1,16 @@
 === EPILOG'15 Talk & Poster ===
 <callout>
 P. Paulweber. **An optimizing Compiler for the Abstract State Machine Language CASM**. Event Talk at the //Distinguished Young Alumnus Award Competition//, EPILOG 2015, Vienna University of Technology, Vienna, Austria, 18th June, 2015.
-[[https://casm-lang.org/_media/resource/paulweber2015epilog/talk.pdf|{{icon>file-pdf-o?lg|Talk Slides}}]]
-[[https://casm-lang.org/_media/resource/paulweber2015epilog/poster.pdf|{{icon>file-pdf-o?lg|Poster}}]]
-[[https://casm-lang.org/resource/paulweber2017rms/talk#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://casm-lang.org/presentation/paulweber2015epilog#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://casm-lang.org/_media/presentation/paulweber2015epilog.pdf|{{icon>file-pdf-o?lg|Talk Slides}}]]
+[[https://casm-lang.org/_media/presentation/paulweber2015epilog_poster.pdf|{{icon>file-pdf-o?lg|Poster}}]]
 </callout>
 == ==
-{{tag>publication event talk poster epilog 2015 ppaulweber}}
+{{tag>presentation event talk poster epilog 2015 ppaulweber}}
 
 == Information ==
 
 see: http://www.informatik.tuwien.ac.at/aktuelles/1006
-
 
 == BibTex ==
 <code bibtex>
@@ -24,7 +23,7 @@ see: http://www.informatik.tuwien.ac.at/aktuelles/1006
   howpublished = {EPILOG'15 Talk Slides},
   month        = {June},
   year         = {2015},
-  note         = {\url{https://casm-lang.org/_media/resource/paulweber2015epilog/talk.pdf}},
+  note         = {\url{https://casm-lang.org/_media/presentation/paulweber2015epilog.pdf}},
 }
 @misc{paulweber2015epilog-poster,
   title        = {{A}n optimizing {C}ompiler for the {A}bstract {S}tate {M}achine {L}anguage {CASM}},
@@ -32,6 +31,6 @@ see: http://www.informatik.tuwien.ac.at/aktuelles/1006
   howpublished = {EPILOG'15 Poster},
   month        = {June},
   year         = {2015},
-  note         = {\url{https://casm-lang.org/_media/resource/paulweber2015epilog/poster.pdf}},
+  note         = {\url{https://casm-lang.org/_media/presentation/paulweber2015epilog_poster.pdf}},
 }
 </code>

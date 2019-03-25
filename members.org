@@ -1,0 +1,16 @@
+#+options: toc:nil
+# html: {{tag>member}}
+
+* Members
+
+#+macro: profile @@html:{{page>member:@@$1@@html:&noindent&nofooter&firstseconly}}@@
+
+{{{profile(ppaulweber)}}}
+{{{profile(epescosta)}}}
+{{{profile(uzdun)}}}
+{{{profile(fhahn)}}}
+{{{profile(gsimhandl)}}}
+{{{profile(rlezuo)}}}
+{{{profile(akrall)}}}
+{{{profile(gbarany)}}}
+{{{profile(dinfuehr)}}}

@@ -1,0 +1,31 @@
+=== EMIP'19 Workshop Paper ===
+<callout>
+G. Simhandl, P. Paulweber, and U. Zdun. **Design of an Executable Specification Language Using Eye Tracking**. In //6th International Workshop on Eye Movements in Programming//, EMIP 2019, Montreal, Canada, 27th May, 2019.
+[[https://casm-lang.org/publication/simhandl2019emip#bibtex|{{icon>quote-right|BibTex Reference}}]]
+[[https://eprints.cs.univie.ac.at/6022/1/simhandl2019emip.pdf|{{icon>file-pdf-o?lg|Workshop Version}}]]
+[[https://swa.cs.univie.ac.at/research/publications/publication/6022|{{icon>database?lg|Database Resource}}]]
+</callout>
+== ==
+{{tag>publication workshop paper emip 2019 gsimhandl ppaulweber uzdun}}
+
+<grid>
+<col lg="4" md="12">
+== Abstract ==
+Increasingly complex systems require powerful and easy to understand specification languages. In course of the design of an executable specification language based on the Abstract State Machines formalism we performed eye-tracking experiments to understand how newly introduced language features are comprehended by language users. In this preliminary study we carefully recruited nine engineers representing a broad range of potential users. For recording eye-gaze behavior we used Pupil Labs eye-tracking headset. An example specification and simple comprehension tasks were used as stimuli. The preliminary results of the eye-gaze behavior analysis reveal that the new language feature was understood well, but the new abstractions were frequently confused by participants. The foreknowledge of specific programming concepts is crucial how these abstractions are comprehended. More research is needed to infer this knowledge from viewing patterns.
+</col>
+<col lg="8" md="12">
+== Document ==
+{{pdfjs 562px>:publication:simhandl2019emip.pdf?page-width}}
+</col>
+</grid>
+
+== BibTex ==
+<code bibtex>
+@Comment{ refnotes, namespace = "cite" }
+@inproceedings{simhandl2019emip,
+  title     = {{D}esign of an {E}xecutable {S}pecification {L}anguage {U}sing {E}ye {T}racking},
+  author    = {Simhandl, Georg and Paulweber, Philipp and Zdun, Uwe},
+  booktitle = {6th International Workshop on Eye Movements in Programming, EMIP 2019},
+  year      = {2019},
+}
+</code>

@@ -1,0 +1,52 @@
+#+options: toc:nil
+#+macro: member_begin    @@html:<callout><html><div style="float: left; text-align: center; display: inline-block; padding-right: 5px;"><img class="img-circle" style="height: 80px;" src="/_media/member/@@{{{member}}}@@html:/profile.png"><br><a href="@@{{{membership_link}}@@html:" title="@@{{{membership_name}}}@@html:"><img class="" style="height: 40px;" src="/_media/member/ship/@@{{{membership_icon}}}@@html:.png"></a></div></html><grid>@@
+#+macro: member_name     @@html:</grid>@@
+#+macro: member_end      @@html:</callout>@@
+#+macro: member_link     @@html:<col>[[@@$1@@html:|{{icon>@@$2@@html:|@@$3@@html:}}]]</col>@@
+#+macro: member_github   {{{member_link(https://github.com/$1,github?lg,GitHub Page)}}}
+#+macro: member_twitter  {{{member_link(https://twitter.com/$1,twitter?lg,Twitter Page)}}}
+#+macro: member_linkedin {{{member_link(https://linkedin.com/in/$1,linkedin?lg,LinkedIn Page)}}}
+#+macro: member_personal {{{member_link($1,globe?lg,Personal Page)}}}
+#+macro: member_science  {{{member_link($1,university?lg,Scientific Employment Page)}}}
+#+macro: member_company  {{{member_link($1,building?lg,Company Employment Page)}}}
+
+#+macro: member          ppaulweber
+#+macro: membership_icon univie
+#+macro: membership_name University of Vienna
+#+macro: membership_link https://cs.univie.ac.at
+
+****** 
+
+{{{member_begin}}}
+{{{member_github({{{member}}})}}}
+{{{member_twitter({{{member}}})}}}
+{{{member_linkedin({{{member}}})}}}
+{{{member_science(https://cs.univie.ac.at/philipp.paulweber)}}}
+{{{member_company(https://fiskaly.com/ueber-uns)}}}
+{{{member_name}}}
+
+****** Philipp Paulweber
+
+/Founder and owner of *casm-lang*, pioneer and project leader of *casm*, compiler construction enthusiast./
+
+{{{member_end}}}
+
+** About
+
+Philipp Paulweber is a PhD student and university assistant (teaching and research, prae-doc) 
+at the University of Vienna (Universität Wien), employed at the faculty of computer science 
+in the research group for software architecture, holding a Master of Science (MSc, in German: Dipl-Ing.) 
+degree in computer engineering from the Vienna University of Technology (TU Wien) since 2014.
+
+He was formerly employed at the real-time communication and safety-critical
+software/hardware engineering company Time-Triggered Technology (TTTech) located in Vienna
+and was involved in automotive software/system architecture specification, design and development
+applying standards like the ISO 26262 and using modeling techniques like AUTOSAR.
+
+In 2012 started his ASM theory interest which was hand in hand with the elaboration of his 
+master thesis (in German: Diplomarbeit) with the title "/An optimizing Compiler for the Abstract State Machine Language CASM/". 
+All major results of this master thesis are published at the LCTES'14 conference in a paper with the title "/CASM - Optimized Compilation of Abstract State Machines/". 
+Moreover, his thesis was nominated for the "/Distinguished Young Alumni Award/" in 2015.
+
+Due to some source code restrictions of the first prototype, he decided to start to design and 
+develop a new CASM implementation at the beginning of 2014.

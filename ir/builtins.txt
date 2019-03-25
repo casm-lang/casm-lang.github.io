@@ -10,7 +10,7 @@ Every cast of a primitive type has to be made explicitly by the appropriate cast
 So there exists for every primitive type a full set of type relations for several casting cases. 
 For example, if we just look at a trivial case of casting from a Boolean to a Binary type, 
 the asBinary casting built-in is defined as presented in the following equation. 
-A Boolean value a gets transformed to a b-digit Binary type, e.g. asBit(true, 10) 
+A Boolean value a gets transformed to a b-digit Binary type, e.g. asBinary(true, 10) 
 would result in a 10-digit Binary type value of 1.
 \begin{align*}
 asBinary & : Boolean * Integer \rightarrow Binary( b ), b \neq undef \land b > 0 \\
@@ -27,7 +27,7 @@ CASM-IR provides a set of bit-precise manipulation built-ins
 such as zero extend, sign extend, truncation, signed/unsigned addition, count leading zeros, and so on. 
 Following equation exemplary presents the semantics of the zero extend binary built-in.
 \begin{align*}
-zext & : Bit(n) * Integer \rightarrow Bit( b ), b > n \\
+zext & : Binary(n) * Integer \rightarrow Binary( b ), b > n \\
 zext( a, b ) &= \begin{cases}
 undef & \text{if } ~(a = undef) \veebar (b = undef) \\
 sym'  & \text{if } ~(a = sym  ) \lor    (b = sym  ) \\

@@ -1,5 +1,0 @@
-#+options: toc:nil
-
-* Rules
-
-Consists of one or more =Rule= grammar rules.

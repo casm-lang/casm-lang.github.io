@@ -1,6 +1,0 @@
-#+options: toc:nil
-
-* Term
-
-The term grammar rule defines all possible term expressions which are available in the CASM specification language.
-

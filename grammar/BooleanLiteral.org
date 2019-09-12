@@ -1,5 +1,0 @@
-#+options: toc:nil
-
-* BooleanLiteral
-
-The Boolean literal represents all defined values of the =Boolean= type.

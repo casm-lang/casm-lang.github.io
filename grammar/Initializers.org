@@ -1,5 +1,0 @@
-#+options: toc:nil
-
-* Initializers
-
-Initializers are constructed through one or more =Initializer= which are separated by an comma character.

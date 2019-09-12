@@ -1,5 +1,0 @@
-#+options: toc:nil
-
-* IdentifierPath
-
-An identifier path is constructed through one or more =Idenitifer= which are separated by an double colon (=::=) token.

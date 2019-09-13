@@ -4,7 +4,7 @@ P. Paulweber, E. Pescosta, and U. Zdun. **CASM-IR: Uniform ASM-Based Intermediat
 [[https://casm-lang.org/presentation/paulweber2018abz#bibtex|{{icon>quote-right|BibTex Reference}}]]
 </callout>
 == ==
-{{tag>presentation conference talk abz 2018 ppaulweber epescosta uzdun}}
+{{tag>presentation talk abz 2018 ppaulweber epescosta uzdun}}
 
 <grid>
 <col lg="8" md="12">

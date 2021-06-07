@@ -14,9 +14,9 @@ Linux
 |------------------+--------------------+-----------------+-------------------+--------------------+-------------------|
 | {{icon>archive}} | {{icon>microchip}} | {{icon>memory}} | {{icon>download}} | {{icon>signature}} | {{icon>terminal}} |
 |------------------+--------------------+-----------------+-------------------+--------------------+-------------------|
-| Binary           | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-linux-x86_64.tar.gz][tar.gz]]            | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-linux-x86_64.tar.gz.sha2][sha2]]               | -                 |
-| AppImage         | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-linux-x86_64.AppImage][AppImage]]          | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-linux-x86_64.AppImage.sha2][sha2]]               | -                 |
-| ArchLinux (AUR)  | Intel              | 64-bit          | [[https://aur.archlinux.org/packages/casm][AUR]]               | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-linux-x86_64.tar.gz.sha2][sha2]]               | =$ yay -S casm=   |
+| Binary           | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-linux-x86_64.tar.gz][tar.gz]]            | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-linux-x86_64.tar.gz.sha2][sha2]]               | -                 |
+| AppImage         | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-linux-x86_64.AppImage][AppImage]]          | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-linux-x86_64.AppImage.sha2][sha2]]               | -                 |
+| ArchLinux (AUR)  | Intel              | 64-bit          | [[https://aur.archlinux.org/packages/casm][AUR]]               | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-linux-x86_64.tar.gz.sha2][sha2]]               | =$ yay -S casm=   |
 
 #+html: </col>
 
@@ -30,7 +30,7 @@ Mac OS
 |------------------+--------------------+-----------------+-------------------+--------------------+-------------------|
 | {{icon>archive}} | {{icon>microchip}} | {{icon>memory}} | {{icon>download}} | {{icon>signature}} | {{icon>terminal}} |
 |------------------+--------------------+-----------------+-------------------+--------------------+-------------------|
-| Binary           | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-darwin-x86_64.tar.gz][tar.gz]]            | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-darwin-x86_64.tar.gz.sha2][sha2]]               | -                 |
+| Binary           | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-darwin-x86_64.tar.gz][tar.gz]]            | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-darwin-x86_64.tar.gz.sha2][sha2]]               | -                 |
 
 #+html: </col>
 #+html: </grid>
@@ -46,7 +46,7 @@ Windows
 |------------------+--------------------+-----------------+-------------------+--------------------+-------------------|
 | {{icon>archive}} | {{icon>microchip}} | {{icon>memory}} | {{icon>download}} | {{icon>signature}} | {{icon>terminal}} |
 |------------------+--------------------+-----------------+-------------------+--------------------+-------------------|
-| Binary           | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-windows-x86_64.zip][zip]]            | [[https://github.com/casm-lang/casm/releases/download/0.5.0/casm-windows-x86_64.zip.sha2][sha2]]               | -                 |
+| Binary           | Intel              | 64-bit          | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-windows-x86_64.zip][zip]]            | [[https://github.com/casm-lang/casm/releases/download/0.6.0/casm-windows-x86_64.zip.sha2][sha2]]               | -                 |
 
 #+html: </col>
 
@@ -60,7 +60,7 @@ Docker
 |------------------+--------------------+-----------------+-------------------+--------------------------------------|
 | {{icon>archive}} | {{icon>microchip}} | {{icon>memory}} | {{icon>download}} | {{icon>terminal}}                    |
 |------------------+--------------------+-----------------+-------------------+--------------------------------------|
-| Linux-based      | Intel              | 64-bit          | [[https://hub.docker.com/r/casmlang/casm][casmlang/casm]]     | =$ docker pull casmlang/casm:0.5.0=  |
+| Linux-based      | Intel              | 64-bit          | [[https://hub.docker.com/r/casmlang/casm][casmlang/casm]]     | =$ docker pull casmlang/casm:0.6.0=  |
 
 #+html: </col>
 #+html: </grid>
@@ -76,13 +76,14 @@ Source Code
 |------------------+-----------------+------------------------------------------------------------|
 | {{icon>archive}} | {{icon>server}} | {{icon>terminal}}                                          |
 |------------------+-----------------+------------------------------------------------------------|
-| git              | [[https://github.com/casm-lang/casm][GitHub]]          | =$ git clone -b '0.5.0' https://github.com/casm-lang/casm= |
+| git              | [[https://github.com/casm-lang/casm][GitHub]]          | =$ git clone -b '0.6.0' https://github.com/casm-lang/casm= |
 
 #+html: </col>
 #+html: </grid>
 
 
 # list all releases 
+#+html: {{page>release:0.6.0&nofooter}}
 #+html: {{page>release:0.5.0&nofooter}}
 #+html: {{page>release:0.4.0&nofooter}}
 #+html: {{page>release:0.3.0&nofooter}}

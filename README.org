@@ -1,3 +1,14 @@
+
+#+begin_html
+<h4>
+⚠️
+This repository has been archived and its development work moved to the
+<a href="https://github.com/sealangdotorg/sea">SEA language</a> project.
+<hr>
+</h4>
+#+end_html
+
+#+begin_src
 {{tag>news feature member publication}}
 ~~Title: Website ~~
 ~~NOTOC~~
@@ -78,3 +89,4 @@ Check out the latest CASM conference, workshop, or event [[publications#Conferen
 {{tagtopic>talk&noindent&noheader&nofooter&firstseconly&rsort}}
 </col>
 </grid>
+#+end_src
